@@ -10,15 +10,15 @@
 
 <ion-content>
   <div class="login-logo">
-    <img src="assets/img/appicon.svg" alt="Ionic logo">
+    <img src="assets/img/UEM-logo.png" alt="UEM logo">
   </div>
 
   <form #loginForm="ngForm" novalidate>
-    <ion-list>
+    <ion-list inset="true">
       <ion-item>
-        <ion-label position="stacked" color="primary">Username</ion-label>
-        <ion-input [(ngModel)]="login.username" name="username" type="text" #username="ngModel" spellcheck="false" autocapitalize="off"
-          required>
+        <ion-label position="floating" color="primary">Username</ion-label>
+        <ion-input [(ngModel)]="login.username" name="username" type="text" #username="ngModel" spellcheck="false"
+          autocapitalize="off" required>
         </ion-input>
       </ion-item>
 
@@ -29,7 +29,7 @@
       </ion-text>
 
       <ion-item>
-        <ion-label position="stacked" color="primary">Password</ion-label>
+        <ion-label position="floating" color="primary">Password</ion-label>
         <ion-input [(ngModel)]="login.password" name="password" type="password" #password="ngModel" required>
         </ion-input>
       </ion-item>
@@ -43,7 +43,7 @@
 
     <ion-row>
       <ion-col>
-        <ion-button (click)="onLogin(loginForm)" type="submit" expand="block">Login</ion-button>
+        <ion-button (click)="onLogin(loginForm)" type="submit" color="primary" expand="block">Login</ion-button>
       </ion-col>
       <ion-col>
         <ion-button (click)="onSignup()" color="light" expand="block">Signup</ion-button>

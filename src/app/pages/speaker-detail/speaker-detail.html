@@ -4,11 +4,11 @@
       <ion-buttons slot="start">
         <ion-back-button defaultHref="/app/tabs/speakers"></ion-back-button>
       </ion-buttons>
-      <ion-buttons *ngIf="speaker" slot="end">
-        <ion-button (click)="openContact(speaker)">
+      <ion-buttons *ngIf="tutor" slot="end">
+        <ion-button (click)="openContact(tutor)">
           <ion-icon slot="icon-only" ios="call-outline" md="call-sharp"></ion-icon>
         </ion-button>
-        <ion-button (click)="openSpeakerShare(speaker)">
+        <ion-button (click)="openSpeakerShare(tutor)">
           <ion-icon slot="icon-only" ios="share-outline" md="share-sharp"></ion-icon>
         </ion-button>
       </ion-buttons>
@@ -16,28 +16,30 @@
   </ion-header>
 
   <div class="speaker-background">
-    <img [src]="speaker?.profilePic" [alt]="speaker?.name">
-    <h2>{{speaker?.name}}</h2>
+    <img [src]="tutor?.profilePic" [alt]="tutor?.name">
+    <h2>{{tutor?.name}}</h2>
   </div>
-
-  <div class="ion-padding speaker-detail">
-    <p>{{speaker?.about}} Say hello on social media!</p>
-
-    <hr>
-
-    <ion-chip color="twitter" button (click)="openExternalUrl('https://twitter.com/' + speaker.twitter)">
+  <div class="ion-padding speaker-links">
+    <ion-chip *ngIf="tutor?.twitter" color="twitter" button
+      (click)="openExternalUrl('https://twitter.com/' + tutor.twitter)">
       <ion-icon name="logo-twitter"></ion-icon>
       <ion-label>Twitter</ion-label>
     </ion-chip>
 
-    <ion-chip color="dark" button (click)="openExternalUrl('https://github.com/ionic-team/ionic')">
+    <ion-chip *ngIf="tutor?.github" color="dark" button (click)="openExternalUrl('https://github.com/' + tutor.github)">
       <ion-icon name="logo-github"></ion-icon>
       <ion-label>GitHub</ion-label>
     </ion-chip>
 
-    <ion-chip color="instagram" button (click)="openExternalUrl('https://instagram.com/ionicframework')">
+    <ion-chip *ngIf="tutor?.instagram" color="instagram" button
+      (click)="openExternalUrl('https://instagram.com/' + tutor.instagram)">
       <ion-icon name="logo-instagram"></ion-icon>
       <ion-label>Instagram</ion-label>
     </ion-chip>
   </div>
+  <hr>
+  <div class="ion-padding speaker-detail">
+    <p>{{tutor?.description}}</p>
+  </div>
+
 </ion-content>

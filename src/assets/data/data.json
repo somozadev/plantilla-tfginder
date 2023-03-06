@@ -1,467 +1,750 @@
 {
-  "schedule": [
+  "projects": [
     {
-      "date": "2047-05-17",
-      "groups": [
+      "carreer": "Ingeniería Informática",
+      "proposals": [
         {
-          "time": "8:00 am",
-          "sessions": [
-            {
-              "name": "Breakfast",
-              "timeStart": "8:00 am",
-              "timeEnd": "9:00 am",
-              "location": "Dining Hall",
-              "tracks": ["Food"],
-              "id": "1"
-            }
-          ]
+          "title": "Implementación API REST en NodeJS",
+          "tutorName": "Christian Sukuzhanay",
+          "tags":["NodeJS", "Angular"],
+          "id":"1"
         },
         {
-          "time": "9:15 am",
-          "sessions": [
-            {
-              "name": "Getting Started with Ionic",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Ted Turtle"],
-              "timeStart": "9:30 am",
-              "timeEnd": "9:45 am",
-              "tracks": ["Ionic"],
-              "id": "2"
-            },
-            {
-              "name": "Ionic Tooling",
-              "location": "Executive Ballroom",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "9:45 am",
-              "timeEnd": "10:00 am",
-              "tracks": ["Tooling"],
-              "id": "3"
-            },
-            {
-              "name": "University of Ionic",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Ellie Elephant"],
-              "timeStart": "9:15 am",
-              "timeEnd": "9:30 am",
-              "tracks": ["Ionic"],
-              "id": "4"
-            }
-          ]
-        },
-        {
-          "time": "10:00 am",
-          "sessions": [
-            {
-              "name": "Migrating to Ionic",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Eva Eagle", "Lionel Lion"],
-              "timeStart": "10:00 am",
-              "timeEnd": "10:15 am",
-              "tracks": ["Ionic"],
-              "id": "5"
-            },
-            {
-              "name": "What's New in Angular",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
-              "tracks": ["Angular"],
-              "id": "6"
-            },
-            {
-              "name": "The Evolution of Ionicons",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Isabella Iguana", "Eva Eagle"],
-              "timeStart": "10:15 am",
-              "timeEnd": "10:30 am",
-              "tracks": ["Design"],
-              "id": "7"
-            },
-            {
-              "name": "Ionic Pro",
-              "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Charlie Cheetah"],
-              "timeStart": "10:45 am",
-              "timeEnd": "11:00 am",
-              "tracks": ["Services"],
-              "id": "8"
-            }
-          ]
-        },
-        {
-          "time": "11:00 am",
-          "sessions": [
-            {
-              "name": "Ionic Workshop",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Karl Kitten", "Lionel Lion"],
-              "timeStart": "11:00 am",
-              "timeEnd": "11:45 am",
-              "tracks": ["Workshop"],
-              "id": "9"
-            },
-            {
-              "name": "Community Interaction",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Lionel Lion", "Gino Giraffe"],
-              "timeStart": "11:30 am",
-              "timeEnd": "11:50 am",
-              "tracks": ["Communication"],
-              "id": "10"
-            },
-            {
-              "name": "Navigation in Ionic",
-              "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Rachel Rabbit", "Eva Eagle"],
-              "timeStart": "11:30 am",
-              "timeEnd": "12:00 pm",
-              "tracks": ["Navigation"],
-              "id": "11"
-            }
-          ]
-        },
-        {
-          "time": "12:00 pm",
-          "sessions": [
-            {
-              "name": "Lunch",
-              "location": "Dining Hall",
-              "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
-              "timeStart": "12:00 pm",
-              "timeEnd": "1:00 pm",
-              "tracks": ["Food"],
-              "id": "12"
-            }
-          ]
-        },
-        {
-          "time": "1:00 pm",
-          "sessions": [
-            {
-              "name": "Ionic in the Enterprise",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Paul Puppy"],
-              "timeStart": "1:00 pm",
-              "timeEnd": "1:15 pm",
-              "tracks": ["Communication"],
-              "id": "13"
-            },
-            {
-              "name": "Ionic Worldwide",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Gino Giraffe"],
-              "timeStart": "1:15 pm",
-              "timeEnd": "1:30 pm",
-              "tracks": ["Communication"],
-              "id": "14"
-            },
-            {
-              "name": "The Ionic Package",
-              "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Molly Mouse", "Burt Bear"],
-              "timeStart": "1:30 pm",
-              "timeEnd": "2:00 pm",
-              "tracks": ["Services"],
-              "id": "15"
-            }
-          ]
-        },
-        {
-          "time": "2:00 pm",
-          "sessions": [
-            {
-              "name": "Push Notifications in Ionic",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Burt Bear", "Charlie Cheetah"],
-              "timeStart": "2:00 pm",
-              "timeEnd": "2:30 pm",
-              "tracks": ["Services"],
-              "id": "16"
-            },
-            {
-              "name": "Ionic Documentation",
-              "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Donald Duck"],
-              "timeStart": "2:30 pm",
-              "timeEnd": "2:45 pm",
-              "tracks": ["Documentation"],
-              "id": "17"
-            },
-            {
-              "name": "UX in Ionic",
-              "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Isabella Iguana", "Ellie Elephant"],
-              "timeStart": "2:45 pm",
-              "timeEnd": "3:00 pm",
-              "tracks": ["Design"],
-              "id": "18"
-            }
-          ]
-        },
-        {
-          "time": "3:00",
-          "sessions": [
-            {
-              "name": "Angular Directives in Ionic",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Ted Turtle"],
-              "timeStart": "3:00 pm",
-              "timeEnd": "3:30 pm",
-              "tracks": ["Angular"],
-              "id": "19"
-            },
-            {
-              "name": "Mobile States",
-              "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": ["Rachel Rabbit"],
-              "timeStart": "3:30 pm",
-              "timeEnd": "3:45 pm",
-              "tracks": ["Navigation"],
-              "id": "20"
-            }
-          ]
+          "title": "Desarrollo de la óptica en robots",
+          "tutorName": "Silvia Abad Valtierra",
+          "tags":["Robots", "Python", "Optica"],
+          "id":"1"
         }
       ]
-    }
+      }
   ],
 
-  "speakers": [
+  "tutors": [
     {
-      "name": "Burt Bear",
-      "profilePic": "/assets/img/speakers/bear.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Burt is a Bear. Burt's interests include poetry, dashing space heroes, and lions.",
+      "name": "Christian Sukuzhanay",
+      "profilePic": "/assets/img/avatars/CHRISTIAN VLADIMI SUKUZHANAY.jpg",
+      "instagram": "christiansucuzhanayarevalo",
+      "twitter": "sukuzhanay",
+      "github": "sukuzhanay",
+      "description": "Desde los 20 años he creado proyectos, sociedades, empresas en varios ámbitos y en diferentes países, lo que me ha convertido en un emprendedor con dotes de liderazgo, capacidad de gestión y toma de decisiones.Llevo varios años impartiendo las asignaturas de: Proyectos de Big Data I, II, programación concurrente y distribuida, liderazgo emprendedor, lenguajes de programación estadística, todos relacionados con nuevas tecnologías, Big Data y emprendimiento.",
       "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "burt@example.com",
-      "phone": "+1-541-754-3010",
+      "location": "Madrid",
+      "email": "christianvladimi.sucuzhanay@universidadeuropea.es",
+      "phone": "",
       "id": "1"
     },
     {
-      "name": "Charlie Cheetah",
-      "profilePic": "/assets/img/speakers/cheetah.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Charlie is a Cheetah. Charlie's interests include country music, plush animals, pyrotechnics, and skeletons.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "charlie@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Silvia Abad Valtierra",
+      "profilePic": "/assets/img/avatars/SILVIA ABAD VALTIERRA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Doctora Ingeniero de telecomunicación y profesora titular de la Universidad Europea de Madrid. Con 20 años de experiencia docente e investigadora, es actualmente profesora de la Universidad Europea y gestora de proyectos internacionales de I+D en HBM FiberSensing, la rama de instrumentación óptica avanzada de la multinacional alemana de instrumentación y medida. Su campo de investigación son las Comunicaciones Ópticas y los Sensores de Fibra Óptica.",
+      "title": "Optical communications",
+      "location": "Madrid",
+      "email": "silvia.abad@universidadeuropea.es",
+      "phone": "",
       "id": "2"
     },
     {
-      "name": "Donald Duck",
-      "profilePic": "/assets/img/speakers/duck.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Donald is a Duck. Donald's interests include carpentry, superheroes, merpeople, and glam rock.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "donald@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Anas Ahachad",
+      "profilePic": "/assets/img/avatars/ANAS AHACHAD.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero de Informática por la Universidad AbdelMalek Essaaidi y Doctor de Telecomunicación por la Universidad Carlos III de Madrid en 2017 donde ha prestado sus servicios desde 2010. Su docencia e investigación se centran en el aprendizaje máquina y redes neuronales, con aplicaciones en ayuda a la decisión, minería de datos e información y gestión de información en distintas unidades. En estos temas ha publicado varios artículos en revistas de alto índice de impacto. También tiene experiencia profesional tanto en el mundo laboral y académico.",
+      "title": "Artificial Intelligence",
+      "location": "Madrid",
+      "email": "anas.ahachad@universidadeuropea.es",
+      "phone": "",
       "id": "3"
     },
     {
-      "name": "Eva Eagle",
-      "profilePic": "/assets/img/speakers/eagle.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Eva is an Eagle. Eva's interests include ants, seashells, and cupcakes.",
-      "title": "Developer Advocate",
-      "location": "Everywhere",
-      "email": "eva@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "José Alberto Aijón Jiménez",
+      "profilePic": "/assets/img/avatars/JOSE ALBERTO AIJON.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Centro de estudios técnicos Tron Systems. Como gerente, tuve dos academias en Arturo Soria y en Francos Rodríguez en las que impartí clases de Cálculo, Álgebra, Física, Estadística, Inferencia Estadística, Mecánica, Mecánica de Fluidos, Ingeniería Térmica, Teoría de Circuitos e Ingeniería de Control a nivel Universitario.",
+      "title": "Physics",
+      "location": "Madrid",
+      "email": "",
+      "phone": "",
       "id": "4"
     },
     {
-      "name": "Ellie Elephant",
-      "profilePic": "/assets/img/speakers/elephant.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Ellie is an Elephant. Ellie's interests include pocket watches, pool, hand fans, and ninjas.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "ellie@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Fernando Aparicio Garicia",
+      "profilePic": "/assets/img/avatars/FERNANDO APARICIO GARCIA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "En el año 2006 comencé el master universitario en inteligencia artificial avanzada en la UNED, con la idea de continuar mi formación doctoral, en esta ocasión en el área de la inteligencia artificial aplicada a robótica. El estudio se centró en algoritmos que facilitasen la navegación autónoma. Desde este año 2010, soy profesor en el departamento de Ciencia, Computación y Tecnología, e investigador en el Gupo de investigación en Sistemas Inteligentes (GSI). En este grupo de investigación, gracias a la participación fundamentalmente en un proyecto de investigación a través de un contrato como investigador (Medical-Miner), enfoqué mi tesis doctoral hacia campos multidisciplinares (inteligencia artificial, procesamiento de lenguaje natural, salud y educación). Tras disponer de un conjunto de en torno a 20 publicaciones (con dos JCR en Q1, un congreso Core A y otro Core C, entre otras) presenté mi tesis doctoral en Ingeniería Informática, obteniendo esta titulación en el programa de doctorado de ingeniería multidisciplinar con sobresaliente cum laude. Otro proyecto que me proporcionó un contrato y financiación importante para el desarrollo de la tesis es el proyecto MAVIR. En el departamento al que pertenezco, imparto y he impartido docencia para diferentes ingenierías (informática, aeroespacial, industrial, telecomunicaciones, biomédica, matemática aplicada al análisis de datos) en materias muy diferentes y de diferentes cursos: inteligencia artificial, programación Web, programación de estructuras lineales, estructuras de datos, laboratorio de programación, sistemas operativos, bases de datos, bases de la informática, fundamentos de programación, programación orientada a objetos, proyecto de ingeniería, entre otras. Además, he sido docente de los másteres MBI / Big Data Analytics, M.U. Sistemas de Telecomunicaciones, M. U. en Salud Digital. ",
+      "title": "Artificial Intelligence",
+      "location": "Madrid",
+      "email": "fernando.aparicio@universidadeuropea.es",
+      "phone": "",
       "id": "5"
     },
     {
-      "name": "Gino Giraffe",
-      "profilePic": "/assets/img/speakers/giraffe.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Gino is a Giraffe. Gino's interests include candy-making, unicorns, and birdhouses.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "gino@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Miguel Aparicio Resco",
+      "profilePic": "/assets/img/avatars/MIGUEL APARICIO RESC.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Físico teórico especializado en el análisis de datos y estadística con experiencia en programación. Realicé el grado en Física en la Universidad Complutense, obteniendo la mejor calificación de la promoción. A continuación, realicé el máster de física teórica y me doctoré por la misma Universidad en el campo de la Gravedad y Cosmología. Durante el doctorado, profundicé en el estudio de los mapas de galaxias y su análisis estadístico con el fin de extraer información de modelos de gravedad modificada. Para ello, adquirí una alta experiencia en programación con Python. Como resultado, he sido autor principal y coautor de un total de 8 artículos de investigación y he colaborado en actividades docentes de un total de 6,6 créditos.",
+      "title": "Physics",
+      "location": "Madrid",
+      "email": "miguel.aparicio@universidadeuropea.es",
+      "phone": "",
       "id": "6"
     },
     {
-      "name": "Isabella Iguana",
-      "profilePic": "/assets/img/speakers/iguana.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Isabella is an Iguana. Isabella's interests include crystals, architecture, and candle-making.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "isabella@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Marina P. Arce García",
+      "profilePic": "/assets/img/avatars/MARIANA PAULA ARCE G.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Por lo que respecta a mi faceta docente, he impartido asignaturas de Química para la Ingeniería en los grados de Industriales y Aeroespacial en la Escuela de Arquitectura, Ingeniería y Diseño, además de Química Orgánica I y Química Orgánica II, Química II y Análisis Químico en la Facultad de Ciencias Biomédicas. Nanotecnología en los grados de Física e Ingeniería Biomédica. Junto con las tareas Docentes e Investigadoras, también he realizado tareas de gestión como responsable de laboratorio y actualmente como Coordinadora de titulación en Posgrado.",
+      "title": "Chemistry",
+      "location": "Madrid",
+      "email": "mariana.arce@universidadeuropea.es",
+      "phone": "",
       "id": "7"
     },
     {
-      "name": "Karl Kitten",
-      "profilePic": "/assets/img/speakers/kitten.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Karl is a Kitten. Karl's interests include skiing, jewelry, and needlepoint.",
-      "title": "Developer Advocate",
-      "location": "Everywhere",
-      "email": "karl@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Antonio Barba Salvador",
+      "profilePic": "/assets/img/avatars/ANTONIO BARBA SALVADOR.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Antonio I. Barba Salvador is Associate Professor at the Science, Computing and Technology department at the UEM (European University in Madrid). He got his PhD in multidisciplinary engineering from the UEM, where he is member of the research group “Data Science Laboratory”.His research area is framed in environmental acoustic, machine learning and affective computing, and its  application to real problems such as social media analysis and new ways of human-machine interaction.He has published papers related with environmental impact assessment and performed several conferences in national congresses.",
+      "title": "Machine learning & enviromental acoustic",
+      "location": "Madrid",
+      "email": "antonio.barba@universidadeuropea.es",
+      "phone": "",
       "id": "8"
     },
     {
-      "name": "Lionel Lion",
-      "profilePic": "/assets/img/speakers/lion.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Lionel is a Lion. Lionel's interests include lizards and mathematics.",
-      "title": "Developer Advocate",
-      "location": "Everywhere",
-      "email": "lionel@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Héctor Barrio Crespo",
+      "profilePic": "/assets/img/avatars/HECTOR BARRIO CRESPO.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Soy ingeniero aeronáutico (Msc.) por St. Louis University en EEUU y MBA por IE Business School en Madrid. He trabajado durante 15 años en las industrias de defensa, aeronáutica y generación de energía en ingeniería de sistemas y gestión de investigación y desarrollo. En los últimos 5 años mi enfoque han sido los sistemas de inteligencia artificial aplicados a soluciones industriales. Soy SCRUM Master Professional, CSEP por INCOSE y usuario certificado de Tensorflow.",
+      "title": "Aeronautic Engineer",
+      "location": "Madrid",
+      "email": "hector.barrio@universidadeuropea.es",
+      "phone": "",
       "id": "9"
     },
     {
-      "name": "Molly Mouse",
-      "profilePic": "/assets/img/speakers/mouse.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Molly is a Mouse. Molly's interests include werewolves and magic.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "molly@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Óscar Cabanillas Núñez",
+      "profilePic": "/assets/img/avatars/OSCAR CABANILLAS NUÑEZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "25 años de experiencia en funciones técnicas y gestoras en los entornos TI de empresas privadas. Cubriendo puestos de consultoría, preventa, y dirección de departamentos y proyectos.   ",
+      "title": "Business Intelligence",
+      "location": "Madrid",
+      "email": "oscar.cabanillas@universidadeuropea.es",
+      "phone": "",
       "id": "10"
     },
     {
-      "name": "Paul Puppy",
-      "profilePic": "/assets/img/speakers/puppy.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Paul is a Puppy. Paul's interests include maps, whales, and dragons.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "paul@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Ana del Valle Corrales Paredes",
+      "profilePic": "/assets/img/avatars/ANA DEL VALLE CORRAL.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ana Corrales Paredes en 2004 recibió el grado en Ingeniería de Sistemas por la Universidad de los Andes, Venezuela. Tiene una Maestría en Robótica y Automatización por la Universidad Carlos III de Madrid, España, donde también recibió, en 2012, el título de Doctora en Ingeniería de Automatización Industrial. La Dra. Corrales ha sido profesora ayudante en el Departamento de Ingeniería de Sistemas y Automática de la Universidad Carlos III de Madrid. Ha trabajado en varios proyectos de investigación relacionados con robots móviles y sociales y tecnologías RFID. En la actualidad, es Profesora Adjunta en el Departamento de Ciencia, Computación y Tecnología de la Universidad Europea de Madrid y Coordinadora de la Titulación del Grado en Ingeniería Informática.  Es Investigadora Principal en el Grupo Smart Interactive Systems, su investigación se centra en el área de la robótica social,  la interacción humano-robot y la interacción humano-avatar. Tiene un interés especial en las interfaces de usuario,  el pensamiento de diseño, la creatividad y la fotografía.",
+      "title": "Systems Engineer",
+      "location": "Madrid",
+      "email": "anadelvalle.corrales@universidadeuropea.es",
+      "phone": "",
       "id": "11"
     },
     {
-      "name": "Rachel Rabbit",
-      "profilePic": "/assets/img/speakers/rabbit.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Rachel is a Rabbit. Rachel's interests include clowns, skeletons, and yo-yos.",
-      "title": "Senior Software Engineer",
-      "location": "Everywhere",
-      "email": "rachel@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Álvaro Daza Hernández",
+      "profilePic": "/assets/img/avatars/ALVARO DAZA HERNANDE.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Cuenta con más de 8 años de experiencia en la industria del videojuego, abarcando tanto el mundo del desarrollo, con proyectos triple A (Mercury Steam) e indie (Spaniard Blend, Plain Concepts), como en el de la producción, edición y distribución (Electronic Arts). Su interés por la cinematografía y la narrativa audiovisual le llevó a investigar más en profundidad las posibilidades de la narrativa interactiva que ofrece el medio jugable. Crear historias que se puedan jugar, siendo algo más que un mero espectador, es su objetivo. Poder enseñarlo a las nuevas generaciones, su satisfacción.",
+      "title": "Videogame Design & Narrative",
+      "location": "Madrid",
+      "email": "alvaro.daza@universidadeuropea.es",
+      "phone": "",
       "id": "12"
     },
     {
-      "name": "Ted Turtle",
-      "profilePic": "/assets/img/speakers/turtle.jpg",
-      "instagram": "ionicframework",
-      "twitter": "ionicframework",
-      "about": "Ted is a Turtle. Ted's interests include butterflies, skiing, and cupcakes.",
-      "title": "Software Engineer",
-      "location": "Everywhere",
-      "email": "ted@example.com",
-      "phone": "+1-541-754-3010",
+      "name": "Marta del Valle Canencia",
+      "profilePic": "/assets/img/avatars/MARTA DEL VALLE CANENCIA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Actualmente ejerce como profesora y coordinadora de los grados de Videojuegos y Animación de la Universidad Europea de Madrid. Es miembro de la Junta en la Asociación de Mujeres en la Industria de la Animación (MIA). También realiza un Doctorado en la Universidad de Alcalá. Su ámbito de investigación está relacionado con el lenguaje corporal y el movimiento, aplicado a la Animación 3D. Estudió el Máster en Animación 3D de personajes por la U-TAD y se licenció en Arquitectura por la Universidad Politécnica de Madrid. Fue miembro del equipo internacional de diseñadores en Ahmedabad, India – Vastu Shilpa Foundation + CEPT University. Trabajó como 3D Character Animator para el videojuego “Die Young ” en Indiegala Roma y ¨Runner Heroes¨ de Ikigai Play, así como en otras producciones de juegos, cortos, series de animación y colaboraciones en películas como ¨El parque mágico¨ de Ilion o ¨Snow Queen¨ de Wizart Animation.",
+      "title": "3D Animation & Rigging",
+      "location": "Madrid",
+      "email": "marta.delvalle@universidadeuropea.es",
+      "phone": "",
       "id": "13"
+    },
+    {
+      "name": "José Delgado Perez",
+      "profilePic": "/assets/img/avatars/JOSE DELGADO PEREZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero de Sistemas por la Universidad de los Andes, Actualmente CEO y Founder de Qaroni empresa Fintech especialistas en sistemas de pagos digitales, CEO de PLAAM plataforma tecnológica Startup en el sector di digitalización de empresas, También ha desempeñado cargos de como responsable tecnológico de distintas Startup en el sector Fintech.",
+      "title": "Systems Engineer",
+      "location": "Madrid",
+      "email": "jose.delgado@universidadeuropea.es",
+      "phone": "",
+      "id": "14"
+    },
+    {
+      "name": "Paula Egido Iglesias",
+      "profilePic": "/assets/img/avatars/PAULA EGIDO IGLESIAS.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniera Biomédica cursando el Máster en Ingeniería Biomédica. Actualmente estoy trabajando en iAltitude como ingeniera IoT, desarrollando software y aplicaciones IOT multidispositivo con integración de hardware. Cuento con experiencia en el desarrollo de proyectos de ámbito tecnológico sanitario deportivo. Recientemente me he incorporado como docente a la Escuela, dentro del Grado en Ingeniería Biomédica. Me considero una persona ambiciosa, proactiva, emprendedora, con gran capacidad de liderazgo, trabajo en equipo y resolución de conflictos. Mi objetivo es poder especializarme en el campo e-Health, donde espero seguir creciendo gracias a la adquisición de nuevos conocimientos y nuevas experiencias.",
+      "title": "Biomedical Engineer",
+      "location": "Madrid",
+      "email": "PAULA.EGIDO@universidadeuropea.es",
+      "phone": "",
+      "id": "15"
+    },
+    {
+      "name": "Jorge Erice Calvo-Sotelo",
+      "profilePic": "/assets/img/avatars/JORGE ERICE CALVO SOTELO.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciado en CC Físicas (Física Teórica), por la Universidad Autónoma de Madrid.He desarrollado la práctica totalidad de mi carrera profesional en IBM, S.A.Allí tuve varias etapas: - aproximadamente 10 años en el Departamento de Formación, impartiendo cursos técnicos de Tecnologías y redes de datos, a clientes y empleados del grupo IBM. Comencé como instructor junior, finalizando como responsable del grupo de instructores.- responsable técnico del diseño, despliegue y operación de la red de datos de los JJOO de Sydney 2000.- responsable técnico y gestor técnico de proyectos de mejora de la infraestructura de red (fija, wirerless, WAN) y telefonía internas de IBM de España, Portugal, Grecia e Israel, coordinando equipos mutinacionales. En esta etapa apliqué como piloto las metodologías Agiles.- a lo largo de mi carrera he mantenido actividad docente paralela a mi desempeño profesional.",
+      "title": "Theoretical Physics",
+      "location": "Madrid",
+      "email": "JORGE.ERICE@universidadeuropea.es",
+      "phone": "",
+      "id": "16"
+    },
+    {
+      "name": "Rafael Escalera Rivas",
+      "profilePic": "/assets/img/avatars/RAFAEL ESCALERA RIVA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Rafael Escalera es Ingeniero Técnico industrial, y ha ejercido la mayor parte de su carrera laboral en el mundo de la educación. Su línea de trabajo está enfocada en conseguir que los alumnos se hagan responsables de su propio proceso de aprendizaje, para lo que se ha formado en PNL y coaching. Tiene un canal de Youtube donde explica de forma gratuita elasticidad y resistencia de materiales, y acaba de publicar su primer libro: 'La flecha, o cómo responder a la pregunta ¿Y tú qué quieres hacer con tu vida?'",
+      "title": "Technical industrial engineer",
+      "location": "Madrid",
+      "email": "RAFAEL.ESCALERA@universidadeuropea.es",
+      "phone": "",
+      "id": "17"
+    },
+    {
+      "name": "Luis Alfonso Ferrer Perez",
+      "profilePic": "/assets/img/avatars/LUIS ALFONSO FERRER.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero informático y estudiante de dirección y creación de empresas.Profesionalmente he trabajado en: DarwinexUniversidad europeaSiemens",
+      "title": "Computer engineer",
+      "location": "Madrid",
+      "email": "luisalfonso.ferrer@universidadeuropea.es",
+      "phone": "",
+      "id": "18"
+    },
+    {
+      "name": "Dario Gallach Pérez",
+      "profilePic": "/assets/img/avatars/DARIO GALLACH PEREZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciado en Física por la Universidad Autónoma de Madrid, Máster en Materiales Avanzados y Nanotecnologías y Doctor con Mención Internacional en el mismo ámbito. Actualmente es Profesor Titular de la Universidad Europea de Madrid. Su área de conocimiento es la de Física Aplicada centrando su actividad investigadora en las aplicaciones biomédicas y optoelectrónicas de la nanotecnología. Tiene más de 25 publicaciones en revistas científicas JCR, una patente, dos premios y varias estancias en diferentes instituciones científicas de renombre (European Synchrotron Radiation Facility en Francia y Dipartimento di Scienza dei Materiali de la Università di Milano-Bicocca en Italia). También tiene más de 10 años de experiencia docente (traducidas en más de mil horas de clase) tanto en castellano como en inglés, habiendo impartido asignaturas en la Universidad Autónoma de Madrid sobre Electromagnetismo, Termodinámica y Electrónica  (ésta última también dentro del programa UAM-Boston University). En la Univerisdad Europea he impartido docencia sobre Matemáticas, Electromagnetismo, Técnicas Experimentales, Estado Sólido y Estructura de Computadores en diferentes Grados.",
+      "title": "Nanotech",
+      "location": "Madrid",
+      "email": "dario.gallach@universidadeuropea.es",
+      "phone": "",
+      "id": "19"
+    },
+    {
+      "name": "Jairo García Fernández",
+      "profilePic": "/assets/img/avatars/JAIRO GARCIA FERNAND.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "He trabajado en el mundo de la consultoría desde que acabé la carrera, mis últimos años han sido en EY. Mi carrera profesional siempre ha sido cross al mercado (retail, manufacturing, banca, farma, viajes, etc.), y mis especialidades se han basado en el mundo de la analítica y el gobierno TI. También he estado cerca de herramientas tan importantes para el mundo empresarial como son los ERPs y en algunos casos los CRMs (algún que otro proyecto de definición/implantación me ha tocado).Tras casi 20 años de carrera profesional quiero compaginar mi mundo con el mundo de la enseñanza, aportando la visión empresarial desde el mundo académico.Por naturaleza soy inquieto y siempre deseo aprender; para vivir hay que saber mucho de nada y un poco de todo. ",
+      "title": "Analytics",
+      "location": "Madrid",
+      "email": "JAIRO.GARCIA@universidadeuropea.es",
+      "phone": "",
+      "id": "20"
+    },
+    {
+      "name": "Germán García García",
+      "profilePic": "/assets/img/avatars/GERMAN GARCIA GARCIA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero informático especializado en inteligencia artificial trabajando en soluciones de visión por computador.",
+      "title": "Artificial Intelligence",
+      "location": "Madrid",
+      "email": "GERMAN.GARCIA@universidadeuropea.es",
+      "phone": "",
+      "id": "21"
+    },
+    {
+      "name": "Jorge García González",
+      "profilePic": "/assets/img/avatars/JORGE GARCIA GONZALEZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Graduado en Ingeniería Informática y Técnico Superior en Administrador de Sistemas Informáticos en Red. Responsable de Laboratorios Tecnológicos de la Escuela STEAM y miembro del grupo de investigación en Sistemas Inteligentes de Control (SIC) de la Universidad Europea de Madrid. Ha trabajado en diferentes empresas siempre dentro del ámbito de la seguridad, riesgos y gobierno de la información y de los datos. ",
+      "title": "Technology",
+      "location": "Madrid",
+      "email": "JORGE.GARCIA@universidadeuropea.es",
+      "phone": "",
+      "id": "22"
+    },
+    {
+      "name": "Maria Cruz Gaya López",
+      "profilePic": "/assets/img/avatars/MARIA CRUZ GAYA LOPE.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Profesora titular especialidad en Inteligencia Artificial .Licenciada en Informática por la Universidad de Granada. Doctora en Ingeniería Multidisciplinar por la UEM (2011), tesis titulada ´Síntesis distribuida de Teorías´ en el ámbito del aprendizaje automático distribuido y los algoritmos evolutivos . Acreditada doctora de universidad Privada.20 años de experiencia docente. Asignaturas impartidas en el ámbito de las bases de datos, las redes de ordenadores y la programación.20 años de experiencia investigadora en el ámbito de la minería de datos y la aplicación del PBL en titulaciones de ingeniería. Más de 20 publicaciones 4 de ellas artículos de impacto. Participación en más de 10 proyectos de investigación.10 años de experiencia en gestión como Directora de área TIC, directora académica de la Escuela Business and Tech de UE con IBM, y, actualmente, subdirectora para postgrado de la escuela STEAM de la UEM.",
+      "title": "Artificial Intelligence",
+      "location": "Madrid",
+      "email": "mcruz@universidadeuropea.es",
+      "phone": "",
+      "id": "23"
+    },
+    {
+      "name": "Maria Fuencisla Gilsanz Muñoz",
+      "profilePic": "/assets/img/avatars/MARIA FUENCISLA GILS.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Coordinadora del Grado de Física y docente en Universidad Europea de Madrid. Licenciada en C.C. Químicas y Doctora en Biomedicina y Ciencias de la Salud.",
+      "title": "Physics",
+      "location": "Madrid",
+      "email": "mariafuencisla.gilsanz@universidadeuropea.es",
+      "phone": "",
+      "id": "24"
+    },
+    {
+      "name": "Raquel Gomez Medina",
+      "profilePic": "/assets/img/avatars/RAQUEL GOMEZ MEDINA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Profesora de la Escuela STEAM de la Universidad Europea de Madrid. Licenciada en CC. Físicas, con la especialidad de Física Teórica por la UAM. Doctora cum laude en Física de la Materia Condensada por la UAM. Con más de 10 años de experiencia en docencia y divulgación científica, y participación en más de 100 congresos internacionales y en más de 20 proyectos de investigación internacionales. Co-autora de18 publicaciones en revistas científicas internacionales (portada en Physical Review Letters) gracias a su trayectoria investigadora en la UAM, en el ICMM, en la École Polytechnique Fédérale de Lausanne y en el Donostia International Physics Center.",
+      "title": "Nanotech",
+      "location": "Madrid",
+      "email": "raquel.gomez@universidadeuropea.es",
+      "phone": "",
+      "id": "25"
+    },
+    {
+      "name": "Daniel Gómez Vergel",
+      "profilePic": "/assets/img/avatars/DANIEL GOMEZ VERGEL.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Daniel Gómez Vergel es Licenciado en Física por la Universidad de Sevilla y Doctor en Física Teórica por la Universidad Complutense de Madrid. Su interés por la Ciencia le ha permitido ocupar puestos de investigación en áreas de muy diversa naturaleza (Física Atómica, Gravedad Cuántica, Big Data) en centros de reconocido prestigio, colaborando con equipos experimentales y teóricos tanto en España como en el extranjero. En la actualidad, forma parte del equipo docente del Departamento de Ciencia, Computación & Tecnología de la Universidad Europea (Madrid) e imparte cursos de Física, Matemáticas y Programación enfocados a diversos Grados académicos. Es, asimismo, miembro del grupo de investigación Data Science Lab centrado en el diseño y análisis de sistemas de recomendación y de detección de emociones.",
+      "title": "Physics",
+      "location": "Madrid",
+      "email": "",
+      "phone": "daniel.gomez@universidadeuropea.es",
+      "id": "26"
+    },
+    {
+      "name": "Luis Miguel Garcia Expósito",
+      "profilePic": "/assets/img/avatars/LUIS MIGUEL GRACIA EXPOSITO.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Profesor del departamento de Ciencias y Tecnologías Digitales. Máster Universitario en Educación Superior Universidad Europea de Madrid, Certificado en Aptitud Pedagógica (UCM), Licenciado en Ciencias Matemáticas (UCM) Su experiencia profesional comienza en departamentos de sistemas de empresas de telecomunicaciones que le permitió trabajar con grandes volúmenes de datos y entender lo importante que es la eficiencia y la optimización de los distintos procesos. Posteriormente adquirió una amplia experiencia docente, en el área de las matemáticas aplicadas a las distintas ramas de la ingeniería, entre las se encuentra la informática, que le ha permitido profundizar en los conocimientos técnicos y conocer las distintas herramientas matemáticas, como por ejemplo el álgebra matricial, utilizadas para resolver problemas de grandes volúmenes de datos en distintas problemáticas del área computacional.Aunando ambas experiencias, profesional y docente, desarrolla su labor investigadora en dos líneas distintas: La medición de la respuesta emocional de usuarios de aplicaciones educativas desarrolladas en entornos de realidad virtual. La modificación y desarrollo de nuevos modelos basados en el álgebra matricial, que permitan mejorar los rendimientos de los actuales o tratar nuevas problemáticas.",
+      "title": "VR",
+      "location": "Madrid",
+      "email": "luis.gracia@universidadeuropea.es",
+      "phone": "",
+      "id": "27"
+    },
+    {
+      "name": "Alberto Hernández Gallardo",
+      "profilePic": "/assets/img/avatars/ALBERTO HERNANDEZ GA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero en informática  por la Universidad Europea de Madrid. Máster en Big Data y Visual Analytics por la Universidad Internacional de la Rioja.CEO HGadvance, empresa especializada en consultoría web y aplicaciones móviles.Profesor en el departamento de Ciencia, Computación y Tecnología de la Universidad Europea de Madrid.",
+      "title": "Big Data",
+      "location": "Madrid",
+      "email": "alberto.hernandez@ext.universidadeuropea.es",
+      "phone": "",
+      "id": "28"
+    },
+    {
+      "name": "Javier Junquera Sánchez",
+      "profilePic": "/assets/img/avatars/JAVIER JUNQUERA SANCHEZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Investigador en ciberseguridad apasionado de la criptografía y la seguridad en redes. Con amplia experiencia docente, ha impartido formación a cuerpos y fuerzas de seguridad del estado, y ha participado en las principales conferencias de seguridad.",
+      "title": "Cybersecurity",
+      "location": "Madrid",
+      "email": "JAVIER.JUNQUERA@universidadeuropea.es",
+      "phone": "",
+      "id": "29"
+    },
+    {
+      "name": "Jose Luis Lafuente Carrasco",
+      "profilePic": "/assets/img/avatars/JOSE LUIS LAFUENTE C.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero en electrónica, máster en organización industrial, dirección de empresas y proyectos.experto en sistemas embebidos, diseño electrónico embebido, programación de hardware en ASM y C para PICs.experiencia en dirección de equipos y proyectosconsultor externo de Servicedooor puertas y automatismospertenece al grupo de investigación IA salud de la UEM, desarrollando sensores para el campo de medicina.",
+      "title": "Business direction & microchips",
+      "location": "Madrid",
+      "email": "joseluis.lafuente@universidadeuropea.es",
+      "phone": "",
+      "id": "30"
+    },
+    {
+      "name": "Eduardo Lage Jiménez",
+      "profilePic": "/assets/img/avatars/EDUARDO LAGE JIMENEZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero Agrónomo Especialidad Industrial por la Universidad Politécnica de Madrid. Sus principales líneas de investigación se centran en el área de la Implantación de las nuevas tecnologías orientadas a la docencia en materias de Matemáticas y Ciencias Exactas. Ha formado diversos grupos de investigación relacionados con la innovación educativa así como la integración de nuevas herramientas tecnológicas en las diversas metodologías de enseñanza.",
+      "title": "Tic",
+      "location": "Madrid",
+      "email": "eduardo.lage@universidadeuropea.es",
+      "phone": "",
+      "id": "31"
+    },
+    {
+      "name": "Pedro Lara Bercial",
+      "profilePic": "/assets/img/avatars/PEDRO JOSE LARA BERCIAL.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Profesor Doctor Acreditado y Titular de Universidad con intereses en la Innovación Educativa y las TIC aplicadas a la docencia y al tercer sector y las pruebas automáticas de software.Da clases no sólo de aspectos técnicos como el desarrollo y la ingeniería de software, sino también de habilidades transversales para ingenieros. Actualmente es subdirector de la escuela de Arquitectura, Ingeniería y Diseño de la Universidad Europea con responsabilidad sobre los títulos de grado del área de Ciencia, Computación y Tecnología, pero ha ocupado otros puestos como el de Director de departamento o Vicerrector. Durante su etapa como Vicerrector de Innovación y Proyectos Educativos, lideró un equipo de especialistas en innovación educativa con la misión de asegurar el correcto desarrollo del Modelo Académico de la Universidad Europea, teniendo como uno de los ejes fundamentales la Innovación Docente.Por último, como profesional de las TIC acumuló experiencia en el diseño, desarrollo y gestión de proyectos tecnológicos y de desarrollo de software.",
+      "title": "Software",
+      "location": "Madrid",
+      "email": "pedro.lara@universidadeuropea.es",
+      "phone": "",
+      "id": "32"
+    },
+    {
+      "name": "José Manuel López López",
+      "profilePic": "/assets/img/avatars/JOSE MANUEL LOPEZ LOPEZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Doctor en Ciencias Físicas por la Universidad de Granada (2006) en el programa de Ciencia y Tecnología de Coloides e Interfases. Inicia su carrera como docente universitario como Profesor Ayudante LOU en el Departamento de Física de la Materia Condensada de la Universidad Autónoma de Madrid (2006-2008). En la actualidad es Profesor Adjunto Doctor en la Universidad Europea de Madrid, donde ha asumido la docencia de asignaturas básicas pertenecientes a varios grados de la Escuela de Arquitectura, Ingeniería y Diseño. Su actividad investigadora inicial se centraba en diversos aspectos de la física de la escala nanométrica: desde el modelado y simulación de la dinámica de poblaciones en sistemas particulados, hasta la caracterización de redes bidimensionales metálicas a baja temperatura. En 2018 se incorpora al grupo de investigación “Data Science Lab”, de la Universidad Europea de Madrid, del que actualmente es Investigador Principal. Allí aplica su experiencia en modelado matemático a la predicción de opinión mediante filtrado colaborativo y a la representación dinámica de la información.",
+      "title": "Machine Learning",
+      "location": "Madrid",
+      "email": "josemanuel.lopez@universidadeuropea.es",
+      "phone": "",
+      "id": "33"
+    },
+    {
+      "name": "Javier Llorente Martínez",
+      "profilePic": "/assets/img/avatars/JAVIER LORENTE MARTI.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero de Telecomunicaciones por la UPM y Doctor en Economía por la UNED. Ha formado parte del equipo directivo de Telefónica hasta 2021, siempre vinculado a tecnologías y servicios punteros, desde internet móvil y M-Commerce a la comercialización de soluciones de Internet de las Cosas, Big Data e Inteligencia Artifical. De la carrera en Telefónica cabe destacar su estancia en Londres en el periodo 2009-2012 para liderar la estrategia global de Apps del grupo, así como su puesto en el Comité de Dirección de Telefónica On The Spot, la empresa especialista en Smart Retail del grupo Telefónica, en el periodo 2016-2021. En la actualidad lidera Ediacara, una consultora de transformación digital.Durante toda su carrera ha compaginado actividades de profesor, formador y ponente con su actividad principal, dando conferencias dentro y fuera de España. En la actualidad colabora con diversas escuelas de negocios en aspectos relacionados con el impacto de las tecnologías y la transformación digital.Javier es un apasionado de la comunicación, el pensamiento crítico y las metodologías creativas",
+      "title": "IoT",
+      "location": "Madrid",
+      "email": "javier.lorente@universidadeuropea.es",
+      "phone": "",
+      "id": "34"
+    },
+    {
+      "name": "Gabriel Marín Díaz",
+      "profilePic": "/assets/img/avatars/GABRIEL MARIN DIAZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciado en Ciencias Físicas, especializado en Cálculo Automático (1993). CAP Matemáticas (2006). Máster en Estadística Aplicada (2014). Doctorado en Data Science UCM (fecha fin 2022, a falta de lectura de tesis). Experiencia profesional, más de 25 años dedicado a la implantación de proyectos y consultoría TIC en IECISA (21 años), CIO en UNIR (1 año), director de canal en SAGE (5 años). Y experiencia docente en UNIR, VIU y UCM (actualmente profesor asociado).",
+      "title": "Artificial Intelligence",
+      "location": "Madrid",
+      "email": "GABRIEL.MARIN@universidadeuropea.es",
+      "phone": "",
+      "id": "35"
+    },
+    {
+      "name": "Gonzalo Mariscal Vivas",
+      "profilePic": "/assets/img/avatars/GONZALO MARISCAL VIV.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "15 años de experiencia en puestos de dirección, gestión de equipos, desarrollo de negocio y gestión de proyectos a nivel nacional e internacional en el ámbito de la educación y las tecnologías de la información. Actualmente es Director del Departamento de Ciencia, Computación y Tecnología de la Universidad Europea de Madrid liderando un equipo de 70 personas. También es docente en las titulaciones de Ingeniería informática y Diseño de Videojuegos, donde imparte asignaturas relacionadas con la Gestión de Proyectos y las tecnología de Realidad Virtual y Aumentada. Formación: Doctor en Tecnologías de la Información Aplicadas (UEM), Máster en Ciencias de la Computación e Inteligencia Artificial (UPM), Ingeniero en Informática (UPM) y MBA - Máster Universitario en Dirección de Empresas en UEM.",
+      "title": "VR & programming",
+      "location": "Madrid",
+      "email": "gonzalo.mariscal@universidadeuropea.es",
+      "phone": "",
+      "id": "36"
+    },
+    {
+      "name": "Juan Carlos Maroto Carro",
+      "profilePic": "/assets/img/avatars/nan.png",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciado en Ciencias Físicas (esp. Física Teórica),Licenciado en Ciencias Físicas. Electrónica (act. Ingeniería Electrónica).Curso especialista (Master) de Microelectrónica por Lucent Technologies/Univ.Politécnica de MadridDesarrolló investigaciones de doctorado en el Instituto de Energía Solar/ ETS Ing. Telecomunicaciones realizando los cursos de doctorado y participando en más de 17 publicaciones científicas. Investigación, diseño, fabricación y medición de células solares de GaAs de muy alta concentración. Récord mundial de eficiencia 1300 soles. Breves estancias en centros de investigación de Francia, Alemania e Irlanda. Profesor en varias Universidades desde hace más de 20 años, impartiendo clases de Mecánica y Ondas 1 y 2, Fundamentos de Física 1 y 2, Ampliación de Física, Análisis Matemático, Cálculo, Álgebra, Matemáticas Empresariales, Mecánica, Fundamentos de Ingeniería Eléctrica, Electrónica , Electrónica Analógica, Electrónica Digital, diversos Laboratorios de Electrónica, Teoría de Circuitos, Instrumentación Electrónica, Microelectrónica, Lab. de Señales y Sistemas, Análisis de Circuitos por ordenador…",
+      "title": "Thermodinamics",
+      "location": "Madrid",
+      "email": "jcarlos.maroto@universidadeuropea.es",
+      "phone": "",
+      "id": "36"
+    },
+    {
+      "name": "Ana Medina Palomo",
+      "profilePic": "/assets/img/avatars/ANA MEDINA PALOMO.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Soy Ingeniera Industrial con un Máster en Ingeniería Matemática y un Doctorado en Ingeniería Mecánica, por la Universidad Carlos III de Madrid. He trabajado en varios campos, especialmente relacionados con aplicaciones biomédicas, tanto en España como en EE.UU, donde trabajé 3 años como postdoc en la University of California San Diego, en el departamento de ´Radiation Medicine and Applied Physics´. Tengo más de 5 años de experiencia docente en cursos de grado y postgrado.",
+      "title": "Biomedical Engineer",
+      "location": "Madrid",
+      "email": "ana.medina@universidadeuropea.es",
+      "phone": "",
+      "id": "37"
+    },
+    {
+      "name": "Borja Monsalve Piqueras",
+      "profilePic": "/assets/img/avatars/BORJA MONSALVE PIQUERAS.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero superior en informática (especialidad en Inteligencia Artificial) por la Universidad Europea de Madrid - UEM. Profesor asociado en el departamento de Ciencia, Computación y Tecnología y miembro del grupo de investigación en Sistemas Inteligentes de Control (SIC) de la Universidad Europea de Madrid. Desarrolla su trabajo de investigación y doctorado en la línea de sistemas inteligentes de transporte, en la aplicación de técnicas de conducción naturalista para la creación de reglas de comportamiento para vehículos autónomos.",
+      "title": "Intelligent Systems & programming",
+      "location": "Madrid",
+      "email": "borja.monsalve@universidadeuropea.es",
+      "phone": "",
+      "id": "38"
+    },
+    {
+      "name": "María de la Luz Morales Botello",
+      "profilePic": "/assets/img/avatars/MARIA DE LA LUZ MORA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "María de la Luz Morales es Licenciada en Físicas por la Universidad Complutense de Madrid. Realizó un máster oficial en ´Neurociencia y Biología del Comportamiento´ en la Universidad Pablo de Olavide de Sevilla (2008) donde posteriormente, se doctoró en Neurociencias (2016), trabajo por el que recibió el Premio Extraordinario de Doctorado. Tiene una trayectoria multidisciplinar que comenzó como programadora en una empresa tecnológica (Ingeniería de Software Avanzado, IBM Global Services, 2005-2006). Tras este período se incorporó como investigadora pre-doctoral en el Grupo de Bioingeniería y Neurofisiología Experimental del Hospital Nacional de Parapléjicos de Toledo, donde se formó en técnicas experimentales y computacionales. En 2013 se incorporó como investigadora en la Universidad Europea de Madrid (UEM), dirigiendo así su campo de experiencia hacia el procesamiento del lenguaje natural, IoT y tecnologías orientadas a Big Data para aplicaciones a la salud y participando/dirigiendo proyectos internos y nacionales en el área. Así mismo, ha ganado experiencia en estudios cualitativos y cuantitativos de percepciones en humanos. Desde 2017 ejerce su actividad docente en la UEM dentro del área de las ingenierías informática y biomédica, principalmente. Ha dirigido numerosos trabajos fin de grado y máster y ha sido directora del Máster Universitario en Salud Digital en la UEM y coordinadora trabajos fin de grado. Actualmente, mantiene su actividad docente junto a su actividad como coordinadora de prácticas en empresa y es miembro del Comité de Empresa y del Comité de Seguridad y Salud de la UEM. Su actividad investigadora actual se enfoca hacia el estudio de la Sensibilidad del Procesamiento Sensorial. María de la Luz Morales es autora de más de 20 publicaciones en revistas y congresos científicos en áreas como la biomedicina, neurociencia y tecnología.  ",
+      "title": "Sensory Processing Sensitivity",
+      "location": "Madrid",
+      "email": "mariadelaluz.morales@universidadeuropea.es",
+      "phone": "",
+      "id": "39"
+    },
+    {
+      "name": "Carlos Moreno Martínez",
+      "profilePic": "/assets/img/avatars/CARLOS MORENO MARTIN.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciado en Informática, doctor en Tecnologías de la Información aplicadas, certificado en ITIL® v3 y en ISO20000, profesor del departamento de 'Ciencia, Computación y Tecnología'.Experiencia profesional en empresas del sector tecnológico de software, nacional e internacional, hasta su incorporación a la Universidad Europea de Madrid. Es experto en procesos y portfolio de gestión TI.Colaborador de start-ups y empresas de reciente creación para el diseño y estrategia de su portfolio de productos y servicios.Miembro fundador del grupo de investigación multidisciplinar SmartIS (Smart Interatvice Systems), en la Escuela de Arquitectura, Ingeniera y Diseño (Universidad Europea, 2019), dedicado al estudio de la respuesta emocional de las personas a la tecnología, expandiendo los principios de la HCI (human-computer interaction).Sus áreas de interés son la innovación empresarial surgida en la universidad, y las competencias y habilidades profesionales para la economía digital.",
+      "title": "Services portfolio & business innovation",
+      "location": "Madrid",
+      "email": "carlos.moreno@universidadeuropea.es",
+      "phone": "",
+      "id": "40"
+    },
+    {
+      "name": "Rafael Muñoz Gil",
+      "profilePic": "/assets/img/avatars/RAFAEL MUÑOZ GIL.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Doctorado en Tecnologías de la información aplicadas (cum laude), Máster en Big Data Innovación y Tecnología, Máster Business Administration, Ingeniero Superior Informático esp. Inteligencia Artificial.Actualmente Director del Máster en Business Analytics y Director del Máster en Fintech y Blockchain. Responsable tecnológico en el área de Morosidad Empresas en CaixaBank. Docente en el Máster de Fintech y Blockchain. Docente en el Máster de Big Data y Business Analytics. Docente en el Máster de Gestión y Dirección Financiera. ",
+      "title": "Big Data",
+      "location": "Madrid",
+      "email": "rafael.munoz@universidadeuropea.es",
+      "phone": "",
+      "id": "41"
+    },
+    {
+      "name": "Raquel Párez Pavón",
+      "profilePic": "/assets/img/avatars/RAQUEL PAEZ PAVON.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciada en Físicas por la Universidad Complutense de Madrid. Durante gran parte de mi carrera he participado en numerosos proyectos en el ámbito de la informática, concretamente en el desarrollo de software bancario. Entre otros, he colaborado en empresas como Bankinter, BBVA y recientemente en INDRA donde además he trabajado como coach para la trasformación de trabajo en metodología Agile. Otras titulaciones: además de la informática, también he centrado mis conocimientos en aspectos relacionados con las energías renovables, concretamente en el diseño y mantenimiento de instalaciones de energía solar y fotovoltaica (UPM) y diseño e instalación de Biomasa y Eólica (UCM) Desde 2018, desarrollo mis funciones como docente en la Universidad Europea.",
+      "title": "Physics",
+      "location": "Madrid",
+      "email": "raquel.paez@universidadeuropea.es",
+      "phone": "",
+      "id": "42"
+    },
+    {
+      "name": "Javier Pérez Piñeiro",
+      "profilePic": "/assets/img/avatars/JAVIER PEREZ PIÑEIRO.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Licenciado en Química por la Universidad de Vigo en 2012. Máster en Química Avanzada y tesis doctoral en el área de Nanotecnología (Síntesis de nanomateriales complejos con aplicaciones medioambientales). En 2019 se incorpora como investigador en la Universidad Europea de Madrid, Actualmente, además de la labor de investigación, imparte docencia (Química y Matemáticas) en el Departamento de Ciencia, Computación y Tecnología. ",
+      "title": "Chemistry",
+      "location": "Madrid",
+      "email": "javier.perez4@universidadeuropea.es",
+      "phone": "",
+      "id": "43"
+    },
+    {
+      "name": "Luis Pessini Pinilla",
+      "profilePic": "/assets/img/avatars/LUIS PESSINI PINILLA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Desarrollador web mayormente, así como profesor de programación en python y en codigo ensamblador. Hice también investigación trabajando en la propia universidad en el proyecto SEGVAUTO con sergio bemposta y javier fernandez andrés.",
+      "title": "Python & assembly",
+      "location": "Madrid",
+      "email": "LUIS.PESSINI@universidadeuropea.es",
+      "phone": "",
+      "id": "44"
+    },
+    {
+      "name": "Juan Antonio Piñuela Izquierdo",
+      "profilePic": "/assets/img/avatars/JUAN ANTONIO PIÑUELA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Doctor Ingeniero de Telecomunicación por la Universidad Politécnica de Madrid. Especializado en asignaturas de procesamiento de señales, comunicaciones y desarrollo software. Destacar siete publicaciones y ocho contribuciones a congresos en el ámbito de procesamiento de señales y en especial imágenes. Experiencia profesional en labores de gestión, preventa y análisis-programación en distintos proyectos y empresas involucradas en el desarrollo de soluciones multiplataforma de carácter multimedia o de gestión y análisis de datos.",
+      "title": "Software development",
+      "location": "Madrid",
+      "email": "juan.pinuela@universidadeuropea.es",
+      "phone": "",
+      "id": "45"
+    },
+    {
+      "name": "Enrique Puertas Sanz",
+      "profilePic": "/assets/img/avatars/ENRIQUE PUERTAS SANZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Enrique Puertas es Ingeniero Informático y Doctor en Tecnologías de la Información Aplicadas. Especialista en Inteligencia Artificial y Big Data. Miembro del grupo de investigación de 'Sistemas Inteligentes', y co-director grupo 'Machine Learning Salud-UE', centrado en el desarrollo y aplicación de herramientas de Inteligencia Artificial a la práctica clínica y de gestión sanitaria. Es además autor del 'Manual práctico de Inteligencia Artificial en entornos sanitarios'.Como investigador he participado en más de una veintena proyectos y contratos de investigación, nacionales y europeos, y es autor de más de una treintena de publicaciones en revistas y congresos internacionales en temas relacionados con Big Data, Minería de Datos, e Inteligencia Artificial.",
+      "title": "Big Data",
+      "location": "Madrid",
+      "email": "enrique.puertas@universidadeuropea.es",
+      "phone": "",
+      "id": "46"
+    },
+    {
+      "name": "Carlos Ramírez Lizán",
+      "profilePic": "/assets/img/avatars/CARLOS RAMIREZ LIZAN.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero de desarrollo Big Data, Accenture España.Profesor de Grado de Ingeniería Informática,  Universidad Europea · Contrato temporalUniversidad Europea · Contrato temporal. Profesor dedicado a impartir asignaturas de Inteligencia Artificial e Introducción a la Ingeniería del SoftwareProfesor dedicado a impartir asignaturas de Inteligencia Artificial e Introducción a la Ingeniería del Software.Ingeniero de desarrollo de Big Data, Pragsis Bidoop · Jornada completaPragsis Bidoop. Lenguajes y tecnologías utilizadas: Stack Cloudera: Spark (Scala), HDFS, Hive, Impala y Hue.Lenguajes y tecnologías utilizadas: Stack Cloudera: Spark (Scala), HDFS, Hive, Impala y Hue.Android Developer, RadMasRadMas. Responsable y jefe de proyectos. Encargado de la definición y desarrollo de los diferentes proyectos de Android.Responsable y jefe de proyectos. Encargado de la definición y desarrollo de los diferentes proyectos de Android.Robotic Instructor, Logix5 Smart SolutionsLogix5 Smart Solutions. Profesor e instructor en los diferentes cursos de formación impartidos sobre robótica elemental.",
+      "title": "Machine learning & python",
+      "location": "Madrid",
+      "email": "carlos.ramirez2@universidadeuropea.es",
+      "phone": "",
+      "id": "47"
+    },
+    {
+      "name": "José Javier Ruiz Cobo",
+      "profilePic": "/assets/img/avatars/JOSE JAVIER RUIZ COBO.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero de Telecomunicación, gestor de Proyectos (PMP Certified), con más de 20 años de experiencia en implantación de plataformas tecnológicas y en la mejora de procesos de negocio a través de la tecnología. Compagino la actividad profesional con la docencia universitaria. He coordinado programas de postgrado en Big Data Analytics, Blockchain, IoT, Cloud Computing.Especialista en diseño, planificación y despliegue de redes convergentes IP y plataformas de televisión.",
+      "title": "Big Data & Blockchain",
+      "location": "Madrid",
+      "email": "josejavier.ruiz@universidadeuropea.es",
+      "phone": "",
+      "id": "48"
+    },
+    {
+      "name": "Álvaro Sánchez Pérez",
+      "profilePic": "/assets/img/avatars/ALVARO SANCHEZ PEREZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ing. en Telecomunicaciones, especializado en Big Data y visualización de datos. Muy técnico, pero con una rama de diseño y negocio. He desarrollado mi carrera profesional entre la empresa y la universidad, con experiencia desarrollando y liderando proyectos IoT y Big Data, y como profesor en grado y posgrado, y director de programas de Data Science.",
+      "title": "Big Data",
+      "location": "Madrid",
+      "email": "alvaro.sanchez@universidadeuropea.es",
+      "phone": "",
+      "id": "49"
+    },
+    {
+      "name": "Leopoldo Santos Santos",
+      "profilePic": "/assets/img/avatars/LEOPOLDO SANTOS SANT.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero en Informática por la Universidad Pontificia de Salamanca. Máster en Comercio Electrónico por la Universidad Carlos III de Madrid. Ha participado como User Advisory Board en varios FP-7 de la Comisión Europea: Alert for All, INDECT y PROACTIVE. Actualmente está realizando el doctorado en la Universidad de Alcalá de Henares, dentro del Departamento de Ingeniería de la Información y del Conocimiento, y sus campos de investigación son la interoperabilidad semántica, el razonamiento automático sobre bases de conocimiento, los sistemas de apoyo a la toma de decisiones y la ingeniería de sistemas. En Ingeniería de Sistemas tiene mas de quince años de experiencia en la definición de requisitos y en verificación y validación, así como en la entrada en servicio y despliegue de diferentes sistemas y plataformas. Dirige el Máster Universitario en Seguridad de las TIC en la modalidad Online",
+      "title": "Semantic interoperability",
+      "location": "Madrid",
+      "email": "leopoldo.santos@universidadeuropea.es",
+      "phone": "",
+      "id": "50"
+    },
+    {
+      "name": "Irene Talavera Fabra",
+      "profilePic": "/assets/img/avatars/IRENE TALAVERA FABRA.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Actualmente, compagina su labor docente en distintas Universidades, con la dirección de programas de Postgrado, la investigación y la consultoría para diferentes organizaciones e instituciones, como la Comisión Europea en la que forma parte del panel de expertos evaluadores de proyectos de innovación tecnológica. Posee más de 15 años de experiencia laboral en el sector tecnológico como ingeniera de sistemas, consultora y gerente en compañías Fortune 500, donde ha ocupado puestos como Directora Global de Tecnologías Emergentes para Roche, líder mundial en biotecnología .",
+      "title": " Business innovation & leadership",
+      "location": "Madrid",
+      "email": "irene.talavera@universidadeuropea.es",
+      "phone": "",
+      "id": "51"
+    },
+    {
+      "name": "María José Terrón López",
+      "profilePic": "/assets/img/avatars/MARIA JOSE TERRON LOPEZ.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Soy catedrática del área de tecnología Electrónica en la Escuela de Arquitectura, Ingeniería y Diseño de la Universidad Europea de Madrid con dos sexenios de investigación.Al finalizar mis estudios de ciencias Físicas, especialidad Electrónica, realicé mi tesis doctoral en el Instituto de Energía Solar de la UPM, donde me doctoré en 1997, y fui profesora ayudante en el dept. de Electrónica Física de la E.T.S.I. Telecomunicación de la UPM durante dos cursos. En 1996 fui contratada por la Universidad Europea de Madrid como profesora del área de Ingeniería de Telecomunicación a tiempo completo. Desde entonces, además de docente he desempeñado distintos puestos de gestión como han sido responsable de titulación, directora de departamento, directora de máster o responsable de formación del profesorado. He participado en proyectos de investigación de fotovoltaica, óptica aplicada, educación universitaria y robótica educativa.Mi trayectoria profesional e investigadora actualmente está orientada hacia la investigación educativa y la robótica, especialmente en el estudio y la implantación de programas que estimulen el aprendizaje. ",
+      "title": "Education & robotics",
+      "location": "Madrid",
+      "email": "m_jose.terron@universidadeuropea.es",
+      "phone": "",
+      "id": "52"
+    },
+    {
+      "name": "Santiago Torres Alegre",
+      "profilePic": "/assets/img/avatars/SANTIAGO TORRES ALEG.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Ingeniero de Telecomunicación (UPM). Licenciado en Derecho (UNED). Master en Dirección Comercial y Marketing. 14 años de experiencia en operador de telecomunicaciones. 12 años como docente universitario. 6 años como consultor freelance.",
+      "title": "Neural networks",
+      "location": "Madrid",
+      "email": "santiago.torres@universidadeuropea.es",
+      "phone": "",
+      "id": "53"
+    },
+    {
+      "name": "Pablo Manuel Berna Larrosa",
+      "profilePic": "/assets/img/avatars/PABLO MANUEL BERNAL.jpg",
+      "instagram": "",
+      "twitter": "",
+      "github": "",
+      "description": "Mi área de investigación se centra en la Teoría de Aproximación No Lineas en espacios de Banach y quasi-Banach. Actualmente, cuento con 16 artículos de investigación, estancias de investigación en Argentina, Estados Unidos y Cambridge. He impartido alrededor de 25 charlas en seminarios y congresos tanto nacionales como internacionales.",
+      "title": "Functional Analysis",
+      "location": "Madrid",
+      "email": "PABLOMANUEL.BERNA@universidadeuropea.es",
+      "phone": "",
+      "id": "54"
     }
   ],
 
-  "map": [
+  "tags": [
     {
-      "name": "Monona Terrace Convention Center",
-      "lat": 43.071584,
-      "lng": -89.38012,
-      "center": true
-    },
-    {
-      "name": "Ionic HQ",
-      "lat": 43.074395,
-      "lng": -89.381056
-    },
-    {
-      "name": "Afterparty - Brocach Irish Pub",
-      "lat": 43.07336,
-      "lng": -89.38335
-    }
-  ],
-
-  "tracks": [
-    {
-      "name": "Angular",
+      "name": "NodeJS",
       "icon": "logo-angular"
     },
     {
-      "name": "Documentation",
+      "name": "Angular",
       "icon": "document"
-    },
-    {
-      "name": "Food",
-      "icon": "restaurant"
-    },
-    {
-      "name": "Ionic",
-      "icon": "logo-ionic"
-    },
-    {
-      "name": "Tooling",
-      "icon": "hammer"
-    },
-    {
-      "name": "Design",
-      "icon": "color-palette"
-    },
-    {
-      "name": "Services",
-      "icon": "cog"
-    },
-    {
-      "name": "Workshop",
-      "icon": "construct"
-    },
-    {
-      "name": "Communication",
-      "icon": "call"
-    },
-    {
-      "name": "Navigation",
-      "icon": "compass"
     }
   ]
 }

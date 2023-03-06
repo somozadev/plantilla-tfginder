@@ -33,11 +33,15 @@ ion-toolbar ion-menu-button {
 
   height: calc(250px + var(--ion-safe-area-top));
 
-  background: center / cover url(/assets/img/speaker-background.png) no-repeat;
+  // background: center / cover url(/assets/img/speaker-background.png) no-repeat;
+  background-color: var(--ion-color-primary);
 }
 
 .speaker-background img {
-  width: 70px;
+  // width: 70px;
+  // height: 70px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   margin-top: calc(-1 * var(--ion-safe-area-top));
 }
@@ -45,7 +49,7 @@ ion-toolbar ion-menu-button {
 .speaker-background h2 {
   position: absolute;
 
-  bottom: 10px;
+  bottom: 0px;
 
   color: white;
 }
@@ -65,6 +69,7 @@ ion-toolbar ion-menu-button {
 .speaker-detail p {
   margin-left: 6px;
   margin-right: 6px;
+  text-align: justify;
 }
 
 .speaker-detail hr {
@@ -72,4 +77,10 @@ ion-toolbar ion-menu-button {
   margin-bottom: 20px;
 
   background: var(--ion-color-step-150, #d7d8da);
+}
+
+.speaker-links { 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
 }

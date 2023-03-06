@@ -7,13 +7,13 @@ import { ConferenceData } from '../../providers/conference-data';
   styleUrls: ['./speaker-list.scss'],
 })
 export class SpeakerListPage {
-  speakers: any[] = [];
+  tutors: any[] = [];
 
   constructor(public confData: ConferenceData) {}
 
   ionViewDidEnter() {
-    this.confData.getSpeakers().subscribe((speakers: any[]) => {
-      this.speakers = speakers;
+      this.confData.getTutors().subscribe((tutors: any[]) => {
+      this.tutors = tutors;
     });
   }
 }
