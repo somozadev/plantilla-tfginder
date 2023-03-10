@@ -34,3 +34,8 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json

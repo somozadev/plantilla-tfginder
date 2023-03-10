@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "ionic-ng-conf-app"
-  }
+    "default": "tgfinder-c5906",
+    "tfginder-grupo1": "tgfinder-c5906"
+  },
+  "targets": {},
+  "etags": {}
 }
