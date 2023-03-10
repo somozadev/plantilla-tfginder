@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
+import { Auth, signInWithEmailAndPassword, signOut, createUserWithEmailAndPassword } from '@angular/fire/auth';
 
 
 @Injectable({
@@ -11,9 +12,25 @@ export class UserData {
   HAS_SEEN_TUTORIAL = 'hasSeenTutorial';
 
   constructor(
+    private auth : Auth,
     public storage: Storage
   ) { }
 
+  async createUser(username : string, email : string) { 
+    // await this.auth.createUserWithEmailAndPassword(username, email)
+  }
+
+  async loginUser(){
+    // await this.auth.
+  }
+
+  async signupUser(){
+
+  }
+
+  async signoutUser(){
+
+  }
   hasFavorite(sessionName: string): boolean {
     return (this.favorites.indexOf(sessionName) > -1);
   }
