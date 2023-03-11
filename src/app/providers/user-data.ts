@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
-import { Auth, signInWithEmailAndPassword, signOut, createUserWithEmailAndPassword } from '@angular/fire/auth';
+import { Auth, signInWithEmailAndPassword,createUserWithEmailAndPassword } from '@angular/fire/auth';
+
 
 
 @Injectable({
@@ -12,24 +13,18 @@ export class UserData {
   HAS_SEEN_TUTORIAL = 'hasSeenTutorial';
 
   constructor(
-    private auth : Auth,
+    public auth: Auth,
     public storage: Storage
   ) { }
 
-  async createUser(username : string, email : string) { 
-    // await this.auth.createUserWithEmailAndPassword(username, email)
+  async createUser(email: string, password: string) {
+    await createUserWithEmailAndPassword(this.auth,email, password);
   }
-
-  async loginUser(){
-    // await this.auth.
+  async loginUser(email: string, password: string) {
+    await signInWithEmailAndPassword(this.auth, email, password);
   }
-
-  async signupUser(){
-
-  }
-
-  async signoutUser(){
-
+  async signoutUser() {
+    await this.auth.signOut();
   }
   hasFavorite(sessionName: string): boolean {
     return (this.favorites.indexOf(sessionName) > -1);
@@ -46,16 +41,18 @@ export class UserData {
     }
   }
 
-  login(username: string): Promise<any> {
+  login(username: string, password: string): Promise<any> {
     return this.storage.set(this.HAS_LOGGED_IN, true).then(() => {
       this.setUsername(username);
+      this.loginUser(username, password);
       return window.dispatchEvent(new CustomEvent('user:login'));
     });
   }
 
-  signup(username: string): Promise<any> {
+  signup(username: string, password: string): Promise<any> {
     return this.storage.set(this.HAS_LOGGED_IN, true).then(() => {
       this.setUsername(username);
+      this.createUser(username, password);
       return window.dispatchEvent(new CustomEvent('user:signup'));
     });
   }
