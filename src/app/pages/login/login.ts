@@ -22,15 +22,19 @@ export class LoginPage {
     public router: Router
   ) { }
 
-  onLogin(form: NgForm) {
-    this.submitted = true;
+  async onLogin(form: NgForm) {
 
     if (form.valid) {
-      this.userData.login(this.login.username, this.login.password);
-      this.router.navigateByUrl('/app/tabs/schedule');
+      await this.userData.loginUser(this.login.username, this.login.password);
     }
+    if (this.LoginValid()){
+    this.submitted = true;
+      this.router.navigateByUrl('/app/tabs/schedule');}
   }
 
+  LoginValid() {
+    console.log("loginValida called : " + this.userData.LOGGEDIN_CORRECTLY); return this.userData.LOGGEDIN_CORRECTLY;
+  }
   onSignup() {
     this.router.navigateByUrl('/signup');
   }

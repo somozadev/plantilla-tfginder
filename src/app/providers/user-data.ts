@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
-import { Auth, signInWithEmailAndPassword,createUserWithEmailAndPassword } from '@angular/fire/auth';
-
+import { Auth, signInWithEmailAndPassword, createUserWithEmailAndPassword, user } from '@angular/fire/auth';
+import { Router } from '@angular/router';
 
 
 @Injectable({
@@ -12,16 +12,40 @@ export class UserData {
   HAS_LOGGED_IN = 'hasLoggedIn';
   HAS_SEEN_TUTORIAL = 'hasSeenTutorial';
 
+  SIGNUP_CORRECTLY: boolean = false;
+  LOGGEDIN_CORRECTLY: boolean = false;
+
   constructor(
     public auth: Auth,
+    public router: Router,
     public storage: Storage
   ) { }
 
   async createUser(email: string, password: string) {
-    await createUserWithEmailAndPassword(this.auth,email, password);
+    await createUserWithEmailAndPassword(this.auth, email, password).then((result) => {
+      console.log("result from singing up ");
+      console.log(result.user);
+      this.SIGNUP_CORRECTLY = true;
+      this.signup(email, password);
+    }).catch((error) => {
+      console.log(error)
+      this.SIGNUP_CORRECTLY = false;
+    });
   }
   async loginUser(email: string, password: string) {
-    await signInWithEmailAndPassword(this.auth, email, password);
+
+    await signInWithEmailAndPassword(this.auth, email, password).then((result) => {
+
+      console.log("result from singing in ");
+      console.log(result.user);
+      this.LOGGEDIN_CORRECTLY = true;
+      this.login(email, password);
+
+    }).catch((error) => {
+      //credentials wrong update visuals etc
+      console.log(error)
+      this.LOGGEDIN_CORRECTLY = false;
+    });
   }
   async signoutUser() {
     await this.auth.signOut();
@@ -44,7 +68,7 @@ export class UserData {
   login(username: string, password: string): Promise<any> {
     return this.storage.set(this.HAS_LOGGED_IN, true).then(() => {
       this.setUsername(username);
-      this.loginUser(username, password);
+      // this.loginUser(username, password);
       return window.dispatchEvent(new CustomEvent('user:login'));
     });
   }
@@ -52,7 +76,7 @@ export class UserData {
   signup(username: string, password: string): Promise<any> {
     return this.storage.set(this.HAS_LOGGED_IN, true).then(() => {
       this.setUsername(username);
-      this.createUser(username, password);
+      // this.createUser(username, password);
       return window.dispatchEvent(new CustomEvent('user:signup'));
     });
   }

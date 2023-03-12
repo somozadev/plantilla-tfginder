@@ -20,14 +20,20 @@ export class SignupPage {
   constructor(
     public router: Router,
     public userData: UserData
-  ) {}
+  ) { }
 
-  onSignup(form: NgForm) {
-    this.submitted = true;
+  async onSignup(form: NgForm) {
 
     if (form.valid) {
-      this.userData.signup(this.signup.username, this.signup.password);
+      await this.userData.createUser(this.signup.username, this.signup.password);
+    }
+    if (this.RegistrationValid()) {
+      this.submitted = true;
       this.router.navigateByUrl('/app/tabs/schedule');
     }
+  }
+
+  RegistrationValid() {
+    console.log("registrationValida called : " + this.userData.SIGNUP_CORRECTLY); return this.userData.SIGNUP_CORRECTLY;
   }
 }
