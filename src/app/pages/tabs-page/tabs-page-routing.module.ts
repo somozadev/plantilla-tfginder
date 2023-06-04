@@ -40,24 +40,6 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'map',
-        children: [
-          {
-            path: '',
-            loadChildren: () => import('../map/map.module').then(m => m.MapModule)
-          }
-        ]
-      },
-      {
-        path: 'about',
-        children: [
-          {
-            path: '',
-            loadChildren: () => import('../about/about.module').then(m => m.AboutModule)
-          }
-        ]
-      },
-      {
         path: '',
         redirectTo: '/app/tabs/schedule',
         pathMatch: 'full'

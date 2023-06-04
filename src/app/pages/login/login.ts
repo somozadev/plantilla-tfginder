@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { UserData } from '../../providers/user-data';
 
 import { UserOptions } from '../../interfaces/user-options';
+import { Storage } from '@ionic/storage';
 
 
 
@@ -19,7 +20,8 @@ export class LoginPage {
 
   constructor(
     public userData: UserData,
-    public router: Router
+    public router: Router,
+    public storage: Storage
   ) { }
 
   async onLogin(form: NgForm) {
@@ -27,9 +29,15 @@ export class LoginPage {
     if (form.valid) {
       await this.userData.loginUser(this.login.username, this.login.password);
     }
-    if (this.LoginValid()){
-    this.submitted = true;
-      this.router.navigateByUrl('/app/tabs/schedule');}
+    if (this.LoginValid()) {
+      this.submitted = true;
+      this.storage.set("LoggedIn", "true");
+      this.router.navigateByUrl('/app/tabs/schedule');
+    }
+    else {
+      this.storage.set("LoggedIn", "false");
+      //form se vea rojo
+    }
   }
 
   LoginValid() {

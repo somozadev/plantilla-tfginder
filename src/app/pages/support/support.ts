@@ -30,6 +30,7 @@ export class SupportPage {
     this.submitted = true;
 
     if (form.valid) {
+        // further implementation -> backend call to send an actual email with the support msg and username
       this.supportMessage = '';
       this.submitted = false;
 
@@ -41,25 +42,4 @@ export class SupportPage {
     }
   }
 
-  // If the user enters text in the support question and then navigates
-  // without submitting first, ask if they meant to leave the page
-  // async ionViewCanLeave(): Promise<boolean> {
-  //   // If the support message is empty we should just navigate
-  //   if (!this.supportMessage || this.supportMessage.trim().length === 0) {
-  //     return true;
-  //   }
-
-  //   return new Promise((resolve: any, reject: any) => {
-  //     const alert = await this.alertCtrl.create({
-  //       title: 'Leave this page?',
-  //       message: 'Are you sure you want to leave this page? Your support message will not be submitted.',
-  //       buttons: [
-  //         { text: 'Stay', handler: reject },
-  //         { text: 'Leave', role: 'cancel', handler: resolve }
-  //       ]
-  //     });
-
-  //     await alert.present();
-  //   });
-  // }
 }

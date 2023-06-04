@@ -23,7 +23,8 @@ export class SignupPage {
   ) { }
 
   async onSignup(form: NgForm) {
-
+    //change ngform to formbuilder
+    //mix ej1 w/ login from christina
     if (form.valid) {
       await this.userData.createUser(this.signup.username, this.signup.password);
     }

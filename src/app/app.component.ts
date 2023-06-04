@@ -25,19 +25,9 @@ export class AppComponent implements OnInit {
       icon: 'people'
     },
     {
-      title: 'Topics',
+      title: "Tfgs",
       url: '/app/tabs/schedule',
       icon: 'calendar'
-    },
-    {
-      title: 'Profile',
-      url: '/app/tabs/map',
-      icon: 'accessibility'
-    },
-    {
-      title: 'About',
-      url: '/app/tabs/about',
-      icon: 'information-circle'
     }
   ];
   loggedIn = false;
@@ -117,7 +107,7 @@ export class AppComponent implements OnInit {
 
   logout() {
     this.userData.logout().then(() => {
-      return this.router.navigateByUrl('/app/tabs/speakers');
+      return this.router.navigateByUrl('/login');
     });
   }
 

@@ -30,6 +30,7 @@ export class UserData {
     }).catch((error) => {
       console.log(error)
       this.SIGNUP_CORRECTLY = false;
+      // https://tgfinder-c5906.firebaseapp.com/__/auth/handler
     });
   }
   async loginUser(email: string, password: string) {
