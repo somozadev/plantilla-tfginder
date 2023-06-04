@@ -21,13 +21,13 @@ export class AppComponent implements OnInit {
   appPages = [
     {
       title: 'Tutors',
-      url: '/app/tabs/speakers',
+      url: '/app/tabs/tutors',
       icon: 'people'
     },
     {
       title: "Tfgs",
       url: '/app/tabs/schedule',
-      icon: 'calendar'
+      icon: 'document-text'
     }
   ];
   loggedIn = false;

@@ -4,16 +4,520 @@
       "carreer": "Ingeniería Informática",
       "proposals": [
         {
-          "title": "Implementación API REST en NodeJS",
-          "tutorName": "Christian Sukuzhanay",
-          "tags":["NodeJS", "Angular"],
+          "title": "Predicción consumo y generación energía en España",
+          "tutorName": "Álvaro Sánchez Pérez",
+          "tags":["Sistemas inteligentes", "Energía"],
           "id":"1"
         },
         {
-          "title": "Desarrollo de la óptica en robots",
+          "title": "Aplicación de gestión de granja de gallinas",   
+          "tutorName": "Álvaro Sánchez Pérez",
+          "tags":["Robots", "Python", "Automatización"],
+          "id":"2"
+        },
+        {
+          "title": "FUT2MEET",
+          "tutorName": "Álvaro Sánchez Pérez",
+          "tags":["App", "Backend", "Frontend"],
+          "id":"3"
+        },
+        {
+          "title": "Interacción Humano-Robot",
+          "tutorName": "Ana del Valle Corrales Paredes",
+          "tags":["Robots", "Sistemas inteligentes", "IA"],
+          "id":"4"
+        },
+        {
+          "title": "Obtención de los parámetros de un modelo para el movimiento de líquido cefalorraquídeo mediante RRNN",
+          "tutorName": "Ana Medina Palomo",
+          "tags":["IA", "Biotech", "RRNN"],
+          "id":"5"
+        },
+        {
+          "title": "Creación de un sistema que gestione pedidos online a una galería de alimentación",
+          "tutorName": "Ana Medina Palomo",
+          "tags":["Predicción", "IA", "Sistemas inteligentes"],
+          "id":"6"
+        },
+        {
+          "title": "Detección del cáncer de mamá mediante el uso de redes convolucionales a partir de imágenes médicas.",
+          "tutorName": "Ana Medina Palomo",
+          "tags":["Biotech", "Redes convolucionales", "IA"],
+          "id":"7"
+        },
+        {
+          "title": "Tema libre relacionado con el análisis de datos",
+          "tutorName": "Ana Medina Palomo",
+          "tags":["Análisis de datos"],
+          "id":"8"
+        },
+        {
+          "title": "Desarrollo de un videojuego",
+          "tutorName": "Antonio Barba Salvador",
+          "tags":["Programación", "Videojuegos"],
+          "id":"9"
+        },
+        {
+          "title": "Eficiencia de la intervención pre-postoperatoria de artroplastia en pacientes con artrosis y artrodesis en pacientes con osteoporosis",
+          "tutorName": "María de la Luz Morales Botello",
+          "tags":["Medicina", "Biotech"],
+          "id":"10"
+        },
+        {
+          "title": "Algoritmo de clasificación de movimiento y postura mediante sensor de acelerometría en un sistema de electrocardiografía ambulatoria",
+          "tutorName": "María de la Luz Morales Botello",
+          "tags":["Sistemas inteligentes", "Hardware"],
+          "id":"11"
+        },
+        {
+          "title": "Tema libre (sensorización, ECG, procesamiento señales...)",
+          "tutorName": "María de la Luz Morales Botello",
+          "tags":["Sensorización", "ECG","Procesamiento de señales"],
+          "id":"12"
+        },
+        {
+          "title": "Uso de visión artificial para la recopilación de datos en rutas de conducción en coche.",
+          "tutorName": "Borja Monsalve Piqueras",
+          "tags":["IA", "Visión artificial","Conducción"],
+          "id":"13"
+        },
+        {
+          "title": "Aplicación web para el análisis y visualización de los datos recopilados en la grabación de rutas realizadas en entornos de conducción naturalista: GPS, audio, vídeo, etc.",
+          "tutorName": "Borja Monsalve Piqueras",
+          "tags":["Web app", "Análisis de datos","Conducción"],
+          "id":"14"
+        },
+        {
+          "title": "Sistema de comparación y alertas sobre precios de productos (videojuegos) con visión artificial.",
+          "tutorName": "Borja Monsalve Piqueras",
+          "tags":["IA", "Videojuegos","Sistemas inteligentes"],
+          "id":"15"
+        },
+        {
+          "title": "App móvil (preferiblemente Android) para la geolocalización y aviso a masajistas cardiacos voluntarios en situaciones de emergencia.",
+          "tutorName": "Borja Monsalve Piqueras",
+          "tags":["App", "Sanidad","Geolocalización"],
+          "id":"16"
+        },
+        {
+          "title": "Descripción de la columna vertebral con modelo en 3D y modelo de elementos finitos, unido a las posibles problemas como hernias y escoliosis. Desarrollo de estos problemas con elementos finitos y CatCad",
+          "tutorName": "José Delgado Perez",
+          "tags":["3D", "Sanidad","Biotech"],
+          "id":"17"
+        },
+        {
+          "title": "Desarrollo de un comunicador avanzado para personas con Autismo para dispositivos móviles, a partir de la API de ARASAAC capaz de interpretar el entorno mediante datos del mismo y ayudar activamente al usuario en la selección de pictogramas mediante IA.",
+          "tutorName": "Eduardo Lage Jiménez",
+          "tags":["IA","Autismo","ARASAAC"],
+          "id":"18"
+        },
+        {
+          "title": "Entregas de paquetería. Ultima milla.",
+          "tutorName": "Eduardo Lage Jiménez",
+          "tags":["Sistemas inteligentes"],
+          "id":"19"
+        },
+        {
+          "title": "Analisis, diseño y desarrollo de un sistema capaz de crear diferentes modelos de tests, de una o varias páginas con varias modalidades de preguntas a partir de un banco de preguntas y respuestas",
+          "tutorName": "Eduardo Lage Jiménez",
+          "tags":["Tests", "Programación"],
+          "id":"20"
+        },
+        {
+          "title": "Tema libre, preferiblemente relacionado con del desarrollo web o el desarrollo para plataformas móviles, el desarrollo de microservicios, el uso o desarrollo de APIs públicas, la visualización de datos, el desarrollo de experiencias avanzadas de usuario.",
+          "tutorName": "Eduardo Lage Jiménez",
+          "tags":["Web app","Microservicios","Análisis de datos"],
+          "id":"21"
+        },
+        {
+          "title": "Sistema de apoyo a la prevención de patologías mentales",
+          "tutorName": "Carlos Moreno Martínez",
+          "tags":["Sanidad", "IA","Sistemas inteligentes"],
+          "id":"22"
+        },
+        {
+          "title": "Cicerone Digital para los espacios de la Escuela STEAM",
+          "tutorName": "Carlos Moreno Martínez",
+          "tags":["STEAM"],
+          "id":"23"
+        },
+        {
+          "title": "Aplicación del concepto process mining a un caso de estudio real",
+          "tutorName": "Carlos Moreno Martínez",
+          "tags":["Process mining"],
+          "id":"24"
+        },
+        {
+          "title": "Análisis de los KPI's de los centros logísticos de ALI (Adeo Logistic Iberia)",
+          "tutorName": "Carlos Moreno Martínez",
+          "tags":["KPI´s", "ALI"],
+          "id":"25"
+        },
+        {
+          "title": "Tema libre, relacionado con soluciones tecnológicas que mejoren las capacidades de emprendimiento de estudiantes STEAM.",
+          "tutorName": "Carlos Moreno Martínez",
+          "tags":["STEAM", "Emprendimiento"],
+          "id":"26"
+        },
+        {
+          "title": "Desarrollo de sistema loT de monitorización multidisciplinar modular",
+          "tutorName": "Carlos Ramírez Lizán",
+          "tags":["loT"],
+          "id":"27"
+        },
+        {
+          "title": "Análisis de predicción de enfermedades",
+          "tutorName": "Carlos Ramírez Lizán",
+          "tags":["Sanidad", "Predicción"],
+          "id":"28"
+        },
+        {
+          "title": "diseño 3D para dispositivos médicos",
+          "tutorName": "Irene Talavera Fabra",
+          "tags":["3D", "Sanidad"],
+          "id":"29"
+        },
+        {
+          "title": "Estructuras de datos altamente concurrentes",
+          "tutorName": "Daniel Gómez Vergel",
+          "tags":["Concurrente", "Programación"],
+          "id":"30"
+        },
+        {
+          "title": "Extracción de información de fotos de facturas de consumos (electricidad, gas, agua, etc...) con visión artificial",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["IA", "Análisis de datos"],
+          "id":"31"
+        },
+        {
+          "title": "Sistema para hacer preguntas a Alexa con lengua de signos",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["IA", "Sanidad"],
+          "id":"32"
+        },
+        {
+          "title": "Aplicación web para el desarrollo de contenidos online en formato SCORM e IMS Common Cartridge",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["Web app", "SCORM","IMS common cartridge"],
+          "id":"33"
+        },
+        {
+          "title": "Sistema para recuperación de información para perfiles fenotípicos.",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["Sanidad", "Análisis de datos"],
+          "id":"34"
+        },
+        {
+          "title": "Sistema de recomendación de revistas y congresos científicos",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["Sistemas inteligentes"],
+          "id":"35"
+        },
+        {
+          "title": "Tema libre sobre Inteligencia Artificial, Deep Learning, Big Data o Procesamiento del Lenguaje Natural",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["IA", "Deep learning","PLN"],
+          "id":"36"
+        },
+        {
+          "title": "Detección de parálisis facial por ictus mediante Visión Artificial",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["IA", "Sanidad"],
+          "id":"37"
+        },
+        {
+          "title": "Sistema de comparación de precios de comercios de venta de ropa",
+          "tutorName": "Enrique Puertas Sanz",
+          "tags":["Sistemas inteligentes","Análisis de datos"],
+          "id":"38"
+        },
+        {
+          "title": "Colaboración en el desarrollo de algún módulo en una aplicación para la reserva online de vacaciones",
+          "tutorName": "Fernando Aparicio Garicia",
+          "tags":["Web app"],
+          "id":"39"
+        },
+        {
+          "title": "Optimización / Participación en la mejora de software en una empresa real,  intermediaria para reserva de habitaciónes, coche, etc",
+          "tutorName": "Fernando Aparicio Garicia",
+          "tags":["Optimización", "Empresa real"],
+          "id":"40"
+        },
+        {
+          "title": "Sistema de recomendación de órdenes de compra-venta de acciones de bolsa",
+          "tutorName": "Fernando Aparicio Garicia",
+          "tags":["Sistemas inteligentes", "Análisis de datos","Economía"],
+          "id":"41"
+        },
+        {
+          "title": "Aplicación Web para la ejecución de múltiples modelos de Inteligencia Articial orientados a soluciones médicas",
+          "tutorName": "Luis Alfonso Ferrer Perez",
+          "tags":["Sanidad", "Web app","IA"],
+          "id":"42"
+        },
+        {
+          "title": "Inteligencia Artificial Explicable, aplicación a detección de imágenes en la predicción de enfermedades",
+          "tutorName": "Gabriel Marín Díaz",
+          "tags":["IA", "Sanidad"],
+          "id":"43"
+        },
+        {
+          "title": "Sistema para la toma de decisiones en la Liga Fantasy",
+          "tutorName": "Gonzalo Mariscal Vivas",
+          "tags":["IA", "Sistemas inteligentes","Fútbol"],
+          "id":"44"
+        },
+        {
+          "title": "Sistema de medicion remota mediante vision articifial",
+          "tutorName": "Héctor Barrio Crespo",
+          "tags":["IA", "Sistemas inteligentes"],
+          "id":"45"
+        },
+        {
+          "title": "Modelo con redes CCN",
+          "tutorName": "Javier Junquera Sánchez",
+          "tags":["IA", "CNN"],
+          "id":"46"
+        },
+        {
+          "title": "Redes NeuroGliales",
+          "tutorName": "Santiago Torres Alegre",
+          "tags":["IA", "Redes neurogliales","Sanidad"],
+          "id":"47"
+        },
+        {
+          "title": "Gobernanza corporativa del mundo IT en la empresa",
+          "tutorName": "Jairo García Fernández",
+          "tags":["IT", "Empresa"],
+          "id":"48"
+        },
+        {
+          "title": "Diseño de una infraestructura de red Wifi",
+          "tutorName": "Jorge Erice Calvo-Sotelo",
+          "tags":["Wifi","Telecomunicaciones"],
+          "id":"49"
+        },
+        {
+          "title": "Sistemas de Transporte Inteligente",
+          "tutorName": "Jorge García González",
+          "tags":["Sistemas inteligentes","Conducción"],
+          "id":"50"
+        },
+        {
+          "title": "Redes Neuronales Cuánticas",
+          "tutorName": "Santiago Torres Alegre",
+          "tags":["IA"],
+          "id":"51"
+        },
+        {
+          "title": "Vulnerabilidades y ataques sobre smart contracts en Solidity",
+          "tutorName": "José Javier Ruiz Cobo",
+          "tags":["Crypto", "Solidity","Ciberseguridad"],
+          "id":"52"
+        },
+        {
+          "title": "ARTALKS",
+          "tutorName": "Jose Alberto Aijón Jiménez",
+          "tags":["AR"],
+          "id":"53"
+        },
+        {
+          "title": "Electroestimulador para el dolor menstrual",
+          "tutorName": "Jose luis Lafuente Carrasco",
+          "tags":["Sanidad"],
+          "id":"54"
+        },
+        {
+          "title": "Prototipo de calorimetría",
+          "tutorName": "Jose luis Lafuente Carrasco",
+          "tags":["Sanidad","Hardware"],
+          "id":"55"
+        },
+        {
+          "title": "Diseño e implementación de un sistema integrado de visión artificial para la reeducación postural en entornos de trabajo frente al ordenador",
+          "tutorName": "Jose Manuel López López",
+          "tags":["IA","Sistemas inteligentes"],
+          "id":"56"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Javier Llorente Martínez",
+          "tags":[],
+          "id":"57"
+        },
+        {
+          "title": "Diseño y desarrollo de una arquitectura orientada a microservicios para gestionar la información de la empresa limfarma S.A.C",
+          "tutorName": "Juan Antonio Piñuela Izquierdo",
+          "tags":["Sanidad","Microservicios","Empresa real"],
+          "id":"58"
+        },
+        {
+          "title": "Profiling sobre datos de planta de servidores",
+          "tutorName": "Luis Miguel Garcia Expósito",
+          "tags":["Análisis de datos","Profiling"],
+          "id":"59"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Luis Pessini Pinilla",
+          "tags":[],
+          "id":"60"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Luis Pessini Pinilla",
+          "tags":[],
+          "id":"61"
+        },
+        {
+          "title": "IA aplicada a detección de galaxias 1",
+          "tutorName": "Anas Ahachad",
+          "tags":["IA","Galaxias"],
+          "id":"62"
+        },
+        {
+          "title": "IA aplicada a detección de galaxias 2",
+          "tutorName": "Anas Ahachad",
+          "tags":["IA","Galaxias"],
+          "id":"63"
+        },
+        {
+          "title": "Síntesis y evuacion biológica de nanoestructuras carbonatadas",
+          "tutorName": "Marina P. Arce García",
+          "tags":["Biotech","Nanoestructuras carbonatadas"],
+          "id":"64"
+        },
+        {
+          "title": "Caracterización y Estudio de la actividad catalítica de una arcilla en combinación con PMS en la eliminación del tinte Rodamina B presente en aguas residuales. ",
+          "tutorName": "Juan Carlos Maroto Carro",
+          "tags":["Análisis de datos","PMS","Biotech"],
+          "id":"65"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Paula Egido Iglesias",
+          "tags":[],
+          "id":"66"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Paula Egido Iglesias",
+          "tags":[],
+          "id":"67"
+        },
+        {
+          "title": "Prototipado de un brazo biónico",
+          "tutorName": "Paula Egido Iglesias",
+          "tags":["Hardware","Robots"],
+          "id":"68"
+        },
+        {
+          "title": "Aplicación web-móvil para gestión deportiva para encuentros",
+          "tutorName": "Pedro Lara Bercial",
+          "tags":["Web app","Deportes"],
+          "id":"69"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Pedro Lara Bercial",
+          "tags":[],
+          "id":"70"
+        },
+        {
+          "title": "App venta de entradas de eventos musicales",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Web app","Música"],
+          "id":"71"
+        },
+        {
+          "title": "Gastroo, plataforma de contenidos audiovisuales en el ámbito de la restauración 1",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Empresa real","Audiovisual"],
+          "id":"72"
+        },
+        {
+          "title": "Gastroo, plataforma de contenidos audiovisuales en el ámbito de la restauración 2",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Empresa real","Audiovisual"],
+          "id":"73"
+        },
+        {
+          "title": "Gastroo, plataforma de contenidos audiovisuales en el ámbito de la restauración 3",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Empresa real","Audiovisual"],
+          "id":"74"
+        },
+        {
+          "title": "Gastroo, plataforma de contenidos audiovisuales en el ámbito de la restauración 4",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Empresa real","Audiovisual"],
+          "id":"75"
+        },
+        {
+          "title": "Gastroo, plataforma de contenidos audiovisuales en el ámbito de la restauración 5",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Empresa real","Audiovisual"],
+          "id":"76"
+        },
+        {
+          "title": "Gastroo, plataforma de contenidos audiovisuales en el ámbito de la restauración 6",
+          "tutorName": "Rafael Muñoz Gil",
+          "tags":["Empresa real","Audiovisual"],
+          "id":"77"
+        },
+        {
+          "title": "Modelización de fenómenos de dispersión en sistemas de partículas Rayleigh",
+          "tutorName": "Raquel Gomez Medina",
+          "tags":["Física","Rayleigh"],
+          "id":"78"
+        },
+        {
+          "title": "Food Vitamin K tracker",
+          "tutorName": "Raquel Gomez Medina",
+          "tags":["Biotech"],
+          "id":"79"
+        },
+        {
+          "title": "Telemedicina y dispositivos médicos",
+          "tutorName": "Maria Cruz Gaya López",
+          "tags":["Sanidad","Sistemas inteligentes","Telecomunicaciones"],
+          "id":"80"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Germán García García",
+          "tags":[],
+          "id":"81"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Germán García García",
+          "tags":[],
+          "id":"82"
+        },
+        {
+          "title": "Tema libre",
+          "tutorName": "Germán García García",
+          "tags":[],
+          "id":"83"
+        },
+        {
+          "title": "Tema libre",
           "tutorName": "Silvia Abad Valtierra",
-          "tags":["Robots", "Python", "Optica"],
-          "id":"1"
+          "tags":[],
+          "id":"84"
+        },
+        {
+          "title": "Infraestructura de telecomunicaciones",
+          "tutorName": "Silvia Abad Valtierra",
+          "tags":["Telecomunicaciones"],
+          "id":"85"
+        },
+        {
+          "title": "Aprovechamiento de las redes de fibra",
+          "tutorName": "Silvia Abad Valtierra",
+          "tags":["Telecomunicaciones","Wifi","Fibra"],
+          "id":"86"
         }
       ]
       }

@@ -23,7 +23,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'speakers',
+        path: 'tutors',
         children: [
           {
             path: '',

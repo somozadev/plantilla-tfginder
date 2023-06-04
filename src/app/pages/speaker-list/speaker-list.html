@@ -16,11 +16,11 @@
 
   <ion-grid fixed>
     <ion-row>
-      <ion-col size="12" size-md="6" *ngFor="let tutor of tutors">
+      <ion-col size="12" size-md="12" *ngFor="let tutor of tutors">
         <ion-card class="speaker-card">
           <ion-card-header>
             <ion-item detail="false" lines="none" class="speaker-item"
-              routerLink="/app/tabs/speakers/speaker-details/{{tutor.id}}">
+              routerLink="/app/tabs/tutors/speaker-details/{{tutor.id}}">
               <ion-avatar slot="start"> 
                 <img [src]="tutor.profilePic" [alt]="tutor.name + ' profile picture'">
               </ion-avatar>
@@ -33,9 +33,8 @@
 
           <ion-card-content>
             <ion-list lines="none">
-              <ion-item *ngFor="let proposal of tutor.proposals" detail="false"
-                routerLink="/app/tabs/speakers/session/{{proposal.id}}">
-                <ion-label>
+               <ion-item *ngFor="let proposal of tutor.proposals" detail="false"><!-- routerLink="/app/tabs/tutors/session/{{proposal.id}}" -->
+                <ion-label class="speaker-details">
                   <h3>{{proposal.title}}</h3>
                 </ion-label>
               </ion-item>

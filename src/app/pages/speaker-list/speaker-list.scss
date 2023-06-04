@@ -1,5 +1,6 @@
 .speaker-card {
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
@@ -12,6 +13,11 @@ ion-col:not(:last-of-type) .speaker-card {
 
 .speaker-card .speaker-item {
   --min-height: 85px;
+}
+
+.speaker-card .speaker-details {
+
+  color: var(--ion-color-medium);
 }
 
 .speaker-card .speaker-item h2 {
