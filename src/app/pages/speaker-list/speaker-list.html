@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Tutors</ion-title>
+    <ion-title>Tutores</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -20,7 +20,7 @@
         <ion-card class="speaker-card">
           <ion-card-header>
             <ion-item detail="false" lines="none" class="speaker-item"
-              routerLink="/app/tabs/tutors/speaker-details/{{tutor.id}}">
+              routerLink="/app/tabs/tutors/tutor-details/{{tutor.id}}">
               <ion-avatar slot="start"> 
                 <img [src]="tutor.profilePic" [alt]="tutor.name + ' profile picture'">
               </ion-avatar>

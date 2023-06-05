@@ -14,7 +14,7 @@ export class UserData {
 
   SIGNUP_CORRECTLY: boolean = false;
   LOGGEDIN_CORRECTLY: boolean = false;
-
+  
   constructor(
     public auth: Auth,
     public router: Router,
@@ -25,6 +25,7 @@ export class UserData {
     await createUserWithEmailAndPassword(this.auth, email, password).then((result) => {
       console.log("result from singing up ");
       console.log(result.user);
+      this.storage.set("uid",result.user.uid);
       this.SIGNUP_CORRECTLY = true;
       this.signup(email, password);
     }).catch((error) => {
@@ -96,6 +97,11 @@ export class UserData {
 
   getUsername(): Promise<string> {
     return this.storage.get('username').then((value) => {
+      return value;
+    });
+  }
+  getUid(): Promise<string> {
+    return this.storage.get('uid').then((value) => {
       return value;
     });
   }

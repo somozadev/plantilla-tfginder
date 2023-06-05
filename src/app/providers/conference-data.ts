@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { of } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-
+import { getDatabase, ref, child, get } from "firebase/database";
 import { UserData } from './user-data';
 
 @Injectable({
@@ -11,16 +11,39 @@ import { UserData } from './user-data';
 export class ConferenceData {
   data: any;
 
+  constructor(public http: HttpClient, public user: UserData) {
 
-  constructor(public http: HttpClient, public user: UserData) { }
+  }
 
-  load(): any {
+
+  pullDataFromFirebase(): Observable<any> {
+    console.log("pulling data from firebase..");
+    const dbRef = ref(getDatabase());
+    return new Observable<any>(observer => {
+      get(child(dbRef, `/`)).then((snapshot) => {
+        if (snapshot.exists()) {
+          observer.next(snapshot.val());
+        } else {
+          console.log("No data available");
+        }
+        observer.complete();
+      }).catch((error) => {
+        observer.error(error);
+      });
+    });
+
+  }
+
+  load(): Observable<any> {
     if (this.data) {
       return of(this.data);
     } else {
-      return this.http
-        .get('assets/data/data.json')
-        .pipe(map(this.processData, this));
+      return this.pullDataFromFirebase().pipe(
+        map(data => {
+          this.data = this.processData(data);
+          return this.data;
+        })
+      );
     }
   }
   processData(data: any) {
@@ -44,7 +67,7 @@ export class ConferenceData {
 
   getTutors() {
     return this.load().pipe(
-      
+
       map((data: any) => {
         console.log(data);
         return data.tutors.sort((a: any, b: any) => {
@@ -55,38 +78,19 @@ export class ConferenceData {
       })
     )
   }
-  getTimeline(
-    dayIndex: number,
-    queryText = '',
-    excludeTracks: any[] = [],
-    segment = 'all'
-  ) {
+
+  getTfgs() {
+    console.log("GETTING TFGS");
+    let proposals;
     return this.load().pipe(
-      map((data: any) => {
-        const day = data.schedule[dayIndex];
-        day.shownSessions = 0;
-
-        queryText = queryText.toLowerCase().replace(/,|\.|-/g, ' ');
-        const queryWords = queryText.split(' ').filter(w => !!w.trim().length);
-
-        day.groups.forEach((group: any) => {
-          group.hide = true;
-
-          group.sessions.forEach((session: any) => {
-            // check if this session should show or not
-            this.filterSession(session, queryWords, excludeTracks, segment);
-
-            if (!session.hide) {
-              // if this session is not hidden then this group should show
-              group.hide = false;
-              day.shownSessions++;
-            }
-          });
+      map((data) => {
+        const projects = data.projects;
+        projects.forEach((project) => {
+          proposals = project.proposals;
         });
-
-        return day;
+        return proposals;
       })
-    );
+    )
   }
 
   filterSession(

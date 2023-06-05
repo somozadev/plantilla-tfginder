@@ -34,10 +34,14 @@ const routes: Routes = [
             loadChildren: () => import('../session-detail/session-detail.module').then(m => m.SessionDetailModule)
           },
           {
-            path: 'speaker-details/:speakerId',
+            path: 'tutor-details/:speakerId',
             loadChildren: () => import('../speaker-detail/speaker-detail.module').then(m => m.SpeakerDetailModule)
           }
         ]
+      }, 
+      {
+        path: 'account',
+        loadChildren: () => import('../account/account.module').then(m => m.AccountModule)
       },
       {
         path: '',

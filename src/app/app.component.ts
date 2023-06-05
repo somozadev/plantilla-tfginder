@@ -8,8 +8,8 @@ import { StatusBar } from '@capacitor/status-bar';
 import { SplashScreen } from '@capacitor/splash-screen';
 
 import { Storage } from '@ionic/storage';
-
 import { UserData } from './providers/user-data';
+import { environment } from '../environments/environment.prod';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +20,7 @@ import { UserData } from './providers/user-data';
 export class AppComponent implements OnInit {
   appPages = [
     {
-      title: 'Tutors',
+      title: 'Tutores',
       url: '/app/tabs/tutors',
       icon: 'people'
     },
@@ -84,7 +84,6 @@ export class AppComponent implements OnInit {
       return this.updateLoggedInStatus(loggedIn);
     });
   }
-
   updateLoggedInStatus(loggedIn: boolean) {
     setTimeout(() => {
       this.loggedIn = loggedIn;
