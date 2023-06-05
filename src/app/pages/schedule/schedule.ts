@@ -1,4 +1,5 @@
 import { Component, ViewChild, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IonList, Config } from '@ionic/angular';
 
 import { ConferenceData } from '../../providers/conference-data';
@@ -9,7 +10,6 @@ import { ConferenceData } from '../../providers/conference-data';
   styleUrls: ['./schedule.scss'],
 })
 export class SchedulePage implements OnInit {
-  @ViewChild('scheduleList', { static: true }) scheduleList: IonList;
 
   tfgs: any[] = [];
   ios: boolean;

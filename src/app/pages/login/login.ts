@@ -18,6 +18,8 @@ export class LoginPage {
   login: UserOptions = { username: '', password: '' };
   submitted = false;
 
+  error:string = "";
+
   constructor(
     public userData: UserData,
     public router: Router,
@@ -41,7 +43,10 @@ export class LoginPage {
   }
 
   LoginValid() {
-    console.log("loginValida called : " + this.userData.LOGGEDIN_CORRECTLY); return this.userData.LOGGEDIN_CORRECTLY;
+    console.log("loginValida called : " + this.userData.LOGGEDIN_CORRECTLY); 
+   this.error = this.userData.LOGGEDIN_ERROR;
+   console.log("error: " + this.error);
+    return this.userData.LOGGEDIN_CORRECTLY;
   }
   onSignup() {
     this.router.navigateByUrl('/signup');

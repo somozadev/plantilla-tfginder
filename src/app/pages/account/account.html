@@ -9,13 +9,24 @@
 
 <ion-content>
   <div *ngIf="username" class="ion-padding-top ion-text-center">
-    <img src="https://www.gravatar.com/avatar?d=mm&s=140" alt="avatar">
+
+
+    <div class="preview">
+      <ion-avatar (click)="updatePicture()">
+        <img *ngIf="image; else placeholder_avatar;" [src]="image" alt="avatar"/>
+
+        <ng-template #placeholder_avatar>
+          <div class="fallback">
+            <p>Select avatar</p>
+            <p>{{image}}</p>
+          </div>
+        </ng-template>
+      </ion-avatar>
+    </div>
     <h2>{{username}}</h2>
 
     <ion-list inset>
       <ion-item (click)="updatePicture()">Update Picture</ion-item>
-      <ion-item (click)="changeUsername()">Change Username</ion-item>
-      <ion-item (click)="changePassword()">Change Password</ion-item>
       <ion-item (click)="support()">Support</ion-item>
       <ion-item (click)="logout()">Logout</ion-item>
     </ion-list>

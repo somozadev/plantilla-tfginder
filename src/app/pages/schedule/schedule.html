@@ -33,9 +33,8 @@
 
             <ion-card-content>
               <ion-row class="ion-justify-content-evenly ion-margin-horizontal">
-                <ion-item class="item-background-color" *ngFor="let tag of tfg.tags" detail="false"
-                  line="none"><!-- routerLink="/app/tabs/tutors/session/{{proposal.id}}" -->
-                  <ion-label class="tags">
+                <ion-item class="box" *ngFor="let tag of tfg.tags" lines="none"><!-- routerLink="/app/tabs/tutors/session/{{proposal.id}}" -->
+                  <ion-label color="primary">
                     <h3>{{tag}}</h3>
                   </ion-label>
                 </ion-item>

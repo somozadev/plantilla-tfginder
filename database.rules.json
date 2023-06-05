@@ -1,8 +1,6 @@
 {
-  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
   "rules": {
-    //if(request.auth!=null)
-    ".read": true,
-    ".write": true
+    ".read": "request.auth!=null",
+    ".write": "request.auth!=null"
   }
 }

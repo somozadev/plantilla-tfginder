@@ -14,7 +14,8 @@ export class UserData {
 
   SIGNUP_CORRECTLY: boolean = false;
   LOGGEDIN_CORRECTLY: boolean = false;
-  
+  LOGGEDIN_ERROR: string = "";
+
   constructor(
     public auth: Auth,
     public router: Router,
@@ -25,7 +26,7 @@ export class UserData {
     await createUserWithEmailAndPassword(this.auth, email, password).then((result) => {
       console.log("result from singing up ");
       console.log(result.user);
-      this.storage.set("uid",result.user.uid);
+      this.storage.set("uid", result.user.uid);
       this.SIGNUP_CORRECTLY = true;
       this.signup(email, password);
     }).catch((error) => {
@@ -46,6 +47,7 @@ export class UserData {
     }).catch((error) => {
       //credentials wrong update visuals etc
       console.log(error)
+      this.LOGGEDIN_ERROR = error;
       this.LOGGEDIN_CORRECTLY = false;
     });
   }

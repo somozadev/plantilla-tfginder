@@ -4,8 +4,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { TabsPage } from './tabs-page';
 import { TabsPageRoutingModule } from './tabs-page-routing.module';
-import { ScheduleModule } from '../schedule/schedule.module';
-import { SessionDetailModule } from '../session-detail/session-detail.module';
+import { TfgsModule } from '../schedule/schedule.module';
 import { SpeakerDetailModule } from '../speaker-detail/speaker-detail.module';
 import { SpeakerListModule } from '../speaker-list/speaker-list.module';
 
@@ -13,8 +12,7 @@ import { SpeakerListModule } from '../speaker-list/speaker-list.module';
   imports: [
     CommonModule,
     IonicModule,
-    ScheduleModule,
-    SessionDetailModule,
+    TfgsModule,
     SpeakerDetailModule,
     SpeakerListModule,
     TabsPageRoutingModule

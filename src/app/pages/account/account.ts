@@ -1,71 +1,72 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
-import { AlertController } from '@ionic/angular';
+import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
+import { AlertController, LoadingController } from '@ionic/angular';
 
 import { UserData } from '../../providers/user-data';
-
+import { AccountService } from '../../services/account-service';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'page-account',
   templateUrl: 'account.html',
   styleUrls: ['./account.scss'],
 })
-export class AccountPage implements AfterViewInit {
+export class AccountPage implements OnInit {
   username: string;
+  image = null;
+  public storage: Storage
+  placeholder = "https://www.gravatar.com/avatar?d=mm&s=140";
 
   constructor(
     public alertCtrl: AlertController,
     public router: Router,
-    public userData: UserData
-  ) { }
+    public userData: UserData,
+    public accountService: AccountService,
+    private loadingController: LoadingController,
+    private alertController: AlertController
 
-  ngAfterViewInit() {
+
+  ) {
+
+  }
+  async ngOnInit() {
+    await this.accountService.getUserProfile();
     this.getUsername();
+    this.image = this.accountService.imageUrl;
   }
-
-  updatePicture() {
-    console.log('Clicked to update picture');
-  }
-
-  // Present an alert with the current username populated
-  // clicking OK will update the username and display it
-  // clicking Cancel will close the alert and do nothing
-  async changeUsername() {
-    const alert = await this.alertCtrl.create({
-      header: 'Change Username',
-      buttons: [
-        'Cancel',
-        {
-          text: 'Ok',
-          handler: (data: any) => {
-            this.userData.setUsername(data.username);
-            this.getUsername();
-          }
-        }
-      ],
-      inputs: [
-        {
-          type: 'text',
-          name: 'username',
-          value: this.username,
-          placeholder: 'username'
-        }
-      ]
+  async updatePicture() {
+    const image = await Camera.getPhoto({
+      quality: 90,
+      allowEditing: false,
+      resultType: CameraResultType.Base64,
+      source: CameraSource.Camera, // Camera, Photos or Prompt!
     });
-    await alert.present();
+
+    if (image) {
+      const loading = await this.loadingController.create();
+      await loading.present();
+
+      const result = await this.accountService.uploadImage(image);
+      await loading.dismiss();
+
+      if (!result) {
+        const alert = await this.alertController.create({
+          header: 'Upload failed',
+          message: 'There was a problem uploading your avatar.',
+          buttons: ['OK'],
+        });
+        await alert.present();
+      }
+    }
   }
+
 
   getUsername() {
     this.userData.getUsername().then((username) => {
       this.username = username;
     });
   }
-
-  changePassword() {
-    console.log('Clicked to change password');
-  }
-
   logout() {
     this.userData.logout();
     this.router.navigateByUrl('/login');
