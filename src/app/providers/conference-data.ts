@@ -80,7 +80,6 @@ export class ConferenceData {
   }
 
   getTfgs() {
-    console.log("GETTING TFGS");
     let proposals;
     return this.load().pipe(
       map((data) => {

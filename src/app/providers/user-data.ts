@@ -32,6 +32,7 @@ export class UserData {
     }).catch((error) => {
       console.log(error)
       this.SIGNUP_CORRECTLY = false;
+      this.LOGGEDIN_ERROR = error;
       // https://tgfinder-c5906.firebaseapp.com/__/auth/handler
     });
   }

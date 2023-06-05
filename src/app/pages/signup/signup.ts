@@ -16,6 +16,7 @@ import { UserOptions } from '../../interfaces/user-options';
 export class SignupPage {
   signup: UserOptions = { username: '', password: '' };
   submitted = false;
+  error: string = "";
 
   constructor(
     public router: Router,
@@ -35,6 +36,8 @@ export class SignupPage {
   }
 
   RegistrationValid() {
-    console.log("registrationValida called : " + this.userData.SIGNUP_CORRECTLY); return this.userData.SIGNUP_CORRECTLY;
+    console.log("registrationValida called : " + this.userData.SIGNUP_CORRECTLY);
+    this.error = this.userData.LOGGEDIN_ERROR;
+    return this.userData.SIGNUP_CORRECTLY;
   }
 }

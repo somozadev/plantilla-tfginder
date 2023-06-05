@@ -19,7 +19,6 @@ export class AccountPage implements OnInit {
   placeholder = "https://www.gravatar.com/avatar?d=mm&s=140";
 
   constructor(
-    public alertCtrl: AlertController,
     public router: Router,
     public userData: UserData,
     public accountService: AccountService,

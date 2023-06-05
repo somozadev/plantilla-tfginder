@@ -27,7 +27,6 @@ export class LoginPage {
   ) { }
 
   async onLogin(form: NgForm) {
-
     if (form.valid) {
       await this.userData.loginUser(this.login.username, this.login.password);
     }

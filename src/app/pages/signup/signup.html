@@ -14,6 +14,11 @@
   </div>
 
   <form #signupForm="ngForm" novalidate> 
+    <ion-text color="danger" class="ion-text-center">
+      <p [hidden]="error=='' ">
+        {{error}}
+      </p>
+    </ion-text>
     <ion-list inset="true">
       <ion-item>
         <ion-label position="floating" color="success">Username</ion-label>
